@@ -5,9 +5,76 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #192e3e;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-div{
+  /* overflow: hidden; */
+  border-bottom: 1px solid #5494b6;
+}
+
+.site-logo{ 
+  float:left;
+  width:100px;
+  margin: 20px;
+  position: relative;
+}
+
+nav{
+  padding-top:10px;
+  float:right;
+}
+
+nav ul{
+  list-style-type: none;
+  font-size: 1.5rem;
+  text-align: right;
+  padding-right: 20px;
+  color:#fff;
+}
+
+nav li{
+  display: inline;
+  padding: 0 10px;
+}
+
+nav li:hover{
+  color: #5494b6;
+  cursor: pointer;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+}
+
+.primero-darkblue{
+  color: #192e3e;
+}
+
+.primero-lightblue{
+  color: #5494b6;
+}
+
+.primero-orange{
+  color: #d77336;
+}
+
+.primero-bg-darkblue{
+  color: #192e3e;
+}
+
+.primero-bg-lightblue{
+  color: #5494b6;
+}
+
+.primero-bg-orange{
+  color: #d77336;
+}
+
+
+
+/* font software - eras medium */
+/* font primero - touka maru gothic */
