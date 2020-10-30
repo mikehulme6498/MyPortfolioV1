@@ -1,6 +1,6 @@
 import './App.css';
 
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
 import Header from './Components/Header'
 import ScrollingText from './Components/ScrollingText';
 import NavBar from './Components/NavBar';
@@ -12,9 +12,12 @@ function App() {
   return (
     <>
     <Router>
-      <NavBar />         
+      <NavBar />  
+             
       <Switch>
+        
         <Route path="/" exact component={Home}/>
+        <Route path="/MyPortfolioV1" component={Home}></Route>
         <Route path="/ProcessDiagnostics" component={ProcessDiagnostics}></Route>
       </Switch>
     </Router>

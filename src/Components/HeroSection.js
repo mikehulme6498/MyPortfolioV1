@@ -12,7 +12,7 @@ function HeroSection() {
             {/* <h1>MY BEST APP</h1> */}
             <div className="profile-section">
             <div className="profile-pic">
-                <img src={process.env.PUBLIC_URL +"/Images/Profile2.jpg"}></img>
+                <img src={process.env.PUBLIC_URL +"/Images/profile2.jpg"}></img>
             </div>
             <ScrollingText />
             
