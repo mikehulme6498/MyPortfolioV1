@@ -7,13 +7,16 @@ function AboutMe() {
             <h1 className="about-me-title">About Me</h1>
             <div className="about-me-text">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sapiente similique qui error officiis. Omnis quod totam voluptatibus tempore soluta molestiae nesciunt odit pariatur architecto, nisi autem cupiditate fuga asperiores?
+                    As a young boy at the age of 11 I started coding on my BBC Micro computer (showing my age a bit here). I was copying from a coding book and created 
+                    my first application (a car racing game). I was hooked.
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sapiente similique qui error officiis. Omnis quod totam voluptatibus tempore soluta molestiae nesciunt odit pariatur architecto, nisi autem cupiditate fuga asperiores?
+                    I went on to college at 13 and completed City &amp; Guilds courses in Pascal and C. During my later teens I came away from it all. It's always been
+                    in my mind to start coding again so 2 years ago I set out to get back in the game.
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sapiente similique qui error officiis. Omnis quod totam voluptatibus tempore soluta molestiae nesciunt odit pariatur architecto, nisi autem cupiditate fuga asperiores?
+                    In the last 2 years I have become Microsoft certfied in C#, ASP.net, Html / CSS / Javascript. I have built numerous applications and am ready to shift
+                    my career into software development (where it belongs).
                 </p>
             </div>
         </div>

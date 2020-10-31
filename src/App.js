@@ -7,6 +7,7 @@ import ScrollingText from './Components/ScrollingText';
 import NavBar from './Components/NavBar';
 import Home from './Components/pages/Home';
 import ProcessDiagnostics from './Components/pages/ProcessDiagnostics';
+import Projects from './Components/pages/Projects';
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
         
         <Route path="/" exact component={Home}/>
         <Route path="/MyPortfolioV1" component={Home}></Route>
-        <Route path="/ProcessDiagnostics" component={ProcessDiagnostics}></Route>
+        <Route path="/Projects" component={Projects}></Route>
       </Switch>
     </Router>
    

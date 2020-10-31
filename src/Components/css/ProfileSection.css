@@ -20,7 +20,8 @@ video{
     align-items: center;
     justify-content: center;
     width:100%;
-    padding-top: 0;
+    padding-top: 40px;
+    padding-bottom: 100px;
 }
 
 .profile-pic img{
@@ -44,6 +45,9 @@ video{
     animation: slowAppear 0.5s linear;
 }
 
+.profile-description .title span{
+    color: var(--primero-orange);
+}
 .profile-description .message > p{
     
     font-size: 36px;
@@ -55,7 +59,7 @@ video{
 
 
 
-.hero-container{
+.profile-container{
 /* background: url('/src/Images/profile5.jpg') center center/cover no-repeat; */
 background-color: var(--primero-darkblue);
 min-height:90vh;
@@ -75,14 +79,14 @@ clip-path: polygon(0 0, 100% 0, 100% calc(100% - 100px), 0 100%); clip left */
 
 }
 
-.hero-container > h1{
+.profile-container > h1{
     color: #fff;
     font-size: 100px;
     margin-top: -100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 } 
 
-.hero-container > p {
+.profile-container > p {
  color: #fff;
  margin-top: 8px;
  font-size: 32px;
@@ -104,7 +108,7 @@ clip-path: polygon(0 0, 100% 0, 100% calc(100% - 100px), 0 100%); clip left */
 
 
 @media screen and (max-width: 1300px){
-    .hero-container .title{        
+    .profile-container .title{        
         font-size: 48px;
         margin-top: -30px;
         
@@ -144,7 +148,7 @@ clip-path: polygon(0 0, 100% 0, 100% calc(100% - 100px), 0 100%); clip left */
 }
 
 @media screen and (max-width: 960px){
-    .hero-container > h1{
+    .profile-container > h1{
         
         font-size: 70px;
         margin-top: -50px;
@@ -155,6 +159,8 @@ clip-path: polygon(0 0, 100% 0, 100% calc(100% - 100px), 0 100%); clip left */
     }
     .profile-section{
         flex-direction: column;
+        padding-top: 75px;
+        
     }
 
     .profile-description{
@@ -187,6 +193,7 @@ clip-path: polygon(0 0, 100% 0, 100% calc(100% - 100px), 0 100%); clip left */
         width:200px;
     }
     .profile-section{
+        padding-top:75px;
         flex-direction: column;
         
     }

@@ -12,6 +12,7 @@
     position: relative;
     z-index: 97;
     color: white;
+    padding-bottom: 150px;
   }
   
   .cards h1 {
@@ -140,5 +141,23 @@
   @media only screen and (max-width: 1024px) {
     .cards__item {
       margin-bottom: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 960px){
+    .cards__item__text {
+        font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .cards__item__text {
+        font-size: 18px;
+    }
+  }
+
+  @media screen and (max-width: 400px){
+    .cards__item__text {
+        font-size: 16px;
     }
   }

@@ -1,21 +1,21 @@
 import React from 'react'
 import { Button } from './Button'
 import ScrollingText from './ScrollingText'
-import './css/HeroSection.css'
+import './css/ProfileSection.css'
 import '../App.css';
 
 
-function HeroSection() {
+function ProfileSection() {
     return (
-        <div className='hero-container'>
+        <div className='profile-container'>
             {/* <video src={process.env.PUBLIC_URL + '/Videos/video-1.mp4'} autoPlay loop muted></video> */}
             {/* <h1>MY BEST APP</h1> */}
             <div className="profile-section">
             
             <div className="profile-description">
-                <div className="title"> Hi, I'm Mike </div>
-                <div className="message"><p>I am a software developer who is passionate about learning and problem solving.</p>
-                <p>Lorem ipsum dolor sit ab non quisquam inventore nihil repudiandae tenetur minima nam! Quisquam omnis quos fugit ex accusamus?</p>
+                <div className="title"> Hi, I'm Mike</div>
+                <div className="message"><p>I am passionate about creating software that solves real world problems.</p>
+                <p></p>
                 
                 </div>
             </div>
@@ -39,4 +39,4 @@ function HeroSection() {
     )
 } 
 
-export default HeroSection
+export default ProfileSection

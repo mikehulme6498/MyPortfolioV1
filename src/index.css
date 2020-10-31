@@ -6,8 +6,8 @@
 }
 #root{ 
   width:100%;
-  /* background-color: var(--primero-darkblue); */
-  background-color:white;
+  background-color: var(--primero-darkblue);
+  
 
 }
 

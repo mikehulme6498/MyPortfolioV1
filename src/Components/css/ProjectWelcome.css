@@ -1,0 +1,24 @@
+@import './Root.css';
+
+.project-page .project-welcome-container{
+    height:400px;
+    background-color: var(--primero-darkblue);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+    position: relative;
+    z-index: 99;
+}
+
+.project-page .project-welcome-container .page-title{
+    color:white;
+    padding: 20px 0;
+    width:60vw;
+    font-size: large;
+    font-family: 'Titillium-Light', Arial, Helvetica, sans-serif;
+}
+
+.project-page .cards{
+    margin-top: -100px;
+    padding-top:100px;
+    background-color: white;
+}

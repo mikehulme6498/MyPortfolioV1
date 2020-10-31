@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import './css/NavBar.css'
-import {Link} from 'react-router-dom'
+import {Link as Link} from 'react-router-dom'
+import {Link as ScrollLink} from 'react-scroll';
 import { Button } from './Button.js';
 
 function NavBar(){
@@ -45,9 +46,11 @@ function NavBar(){
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/ProcessDiagnostics" className="nav-links" onClick={closeMobileMenu}>
+                        <Link to="/Projects" className="nav-links" onClick={closeMobileMenu}>
                             Projects
                         </Link>
+                        {/* <ScrollLink to="projects" spy={true} scroll={true} duration={500} className="nav-links">Projects</ScrollLink> */}
+
                     </li>
                     <li className="nav-item">
                         <Link to="/" className="nav-links" onClick={closeMobileMenu}>
