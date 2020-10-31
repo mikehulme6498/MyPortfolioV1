@@ -1,0 +1,22 @@
+:root{
+    --primero-darkblue: #192e3e;
+    --primero-lightblue: #5494b6;
+    --primero-orange: #d77336;
+    }
+
+@font-face {
+    font-family: 'Titillium-Light';
+    src: local('TitilliumWeb-ExtraLight'), url(../../Fonts/TitilliumWeb-ExtraLight.woff) format('woff');
+    }
+
+    @font-face {
+    font-family: 'Titillium-SemiBold';
+    src: local('TitilliumWeb-SemiBod'), url(../../Fonts/TitilliumWeb-SemiBold.woff) format('woff');
+    }
+
+    @font-face {
+    font-family: 'Raleway';
+    src: local('Raleway'), url(../../Fonts/Raleway-Regular.woff) format('woff');
+    }
+    
+

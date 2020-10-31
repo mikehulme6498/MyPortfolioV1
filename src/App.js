@@ -1,3 +1,4 @@
+import React from 'react'
 import './App.css';
 
 import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
@@ -11,6 +12,7 @@ import ProcessDiagnostics from './Components/pages/ProcessDiagnostics';
 function App() {
   return (
     <>
+    
     <Router>
       <NavBar />  
              

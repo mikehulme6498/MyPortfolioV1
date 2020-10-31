@@ -1,20 +1,15 @@
-:root{
-
---primero-darkblue: #192e3e;
---primero-lightblue: #5494b6;
---primero-orange: #d77336;
-}
-
 .body{
   background-color: var(--primero-darkblue);
   min-width: 700px;
   width:100%;
+  
 }
 #root{ 
   width:100%;
+  /* background-color: var(--primero-darkblue); */
+  background-color:white;
+
 }
-.site-logo{
-  width: 100px;
-}
+
 /* font software - eras medium */
 /* font primero - touka maru gothic */

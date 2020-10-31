@@ -1,10 +1,24 @@
+@import './Root.css';
+
 .cards {
     padding: 4rem;
-    background: #fff;
+    /* background: #192e3e; */
+    background-color: var(--primero-darkblue);
+    /* background-color: white; */
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+    margin-top: -100px;
+    padding-top: 100px;
+    position: relative;
+    z-index: 97;
+    color: white;
   }
   
-  h1 {
+  .cards h1 {
     text-align: center;
+    font-size: 48px;
+    color:white;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif; 
   }
   
   .cards__container {
@@ -14,6 +28,7 @@
     max-width: 1120px;
     width: 90%;
     margin: 0 auto;
+   
   }
   
   .cards__wrapper {
@@ -30,15 +45,19 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
+    border: 0px solid var(--primero-lightblue);
   }
   
   .cards__item__link {
     display: flex;
     flex-flow: column;
-    width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    width: 100%;    
+    /* box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017)); */
+    /* box-shadow: 0 6px 20px rgba(246, 248, 250, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(184, 181, 181, 0.836)); */
+    filter: drop-shadow(0 6px 20px rgba(161, 160, 160, 0.979));
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
@@ -66,7 +85,7 @@
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background-color: #1f98f4;
+    background-color:var(--primero-orange);
     box-sizing: border-box;
   }
   
@@ -83,6 +102,7 @@
     max-height: 100%;
     object-fit: cover;
     transition: all 0.2s linear;
+    
   }
   
   .cards__item__img:hover {
@@ -91,12 +111,18 @@
   
   .cards__item__info {
     padding: 20px 30px 30px;
+    background-color: white;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .cards__item__text {
-    color: #252e48;
-    font-size: 18px;
-    line-height: 24px;
+    color:var(--primero-darkblue);
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Titillium-light', Arial;
   }
   
   @media only screen and (min-width: 1200px) {

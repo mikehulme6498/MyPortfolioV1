@@ -54,8 +54,28 @@ function NavBar(){
                             Contact
                         </Link>
                     </li>
-                </ul>
-                {button && <Button buttonStyle='btn--outline'>SIGN UP</Button> }
+                    </ul> 
+                {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button> } */}
+                
+                <div className="navbar-social-icons">
+                        <a className="navbar-linkedIn"
+                        href="https://www.linkedin.com/in/mike-hulme-574a5a188/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="linkedin">
+                            <i className="fab fa-linkedin"></i>
+                        </a>
+                        
+                        <a className="social-icon-link gitHub"
+                        href="https://github.com/mikehulme6498"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="linkedin">
+                            <i className="fab fa-github"></i>
+                        </a>                            
+                    </div>
+                    
+                   
                 </div>
         </nav>
     )
