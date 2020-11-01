@@ -10,7 +10,9 @@ function CardItem(props) {
                     <img src={props.src} alt="/" className="cards__item__img"/>
                 </figure>
                 <div className="cards__item__info">
-                <h5 className="cards__item__text">{props.text}</h5>
+                <h5 className="cards__item__title">{props.title}</h5>
+                <div className="cards__item__desc">{props.desc}</div>
+                <div className="tech__used">Tech Used: {props.techUsed}</div>
                 </div>
             </Link>   
             </li> 

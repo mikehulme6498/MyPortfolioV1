@@ -36,3 +36,7 @@ clip-path: polygon(0 0, 100% 0, 100% calc(100% - 100px), 0 100%);  */
     font-family: 'Titillium-light', Arial;
     font-size:30px;
 }
+
+.microsoft-logo{
+    height:28px;
+}

@@ -1,0 +1,127 @@
+.page-heading{
+    background-color: var(--primero-darkblue);
+    min-height:500px;
+    height:auto;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:100px;
+    position: relative;
+    z-index: 99;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+    margin-top: -100px;
+    padding-top: 100px;
+    
+}
+
+.page-heading .heading-title{
+    font-size: 72px;    
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.page-heading .heading-text{
+    font-size: 36px;
+    font-family: 'Titillium-Light', Arial, Helvetica, sans-serif;
+}
+
+.page-body-section{
+    background-color: white;
+    color:var(--primero-DarkBlue);
+    min-height: 500px;
+    height: auto;
+    margin-top: -100px;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.second-to-last-section{
+    
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+    position: relative;
+    z-index: 98;
+    padding-bottom: 150px;
+}
+
+.last-section{
+    margin-top: -100px;
+    padding-top: 150px;
+    padding-bottom:100px;
+    position: relative;
+    z-index: 97;
+    background-color:var(--primero-darkblue);
+    color: white;
+}
+
+.section-heading{
+    font-size: 36px;    
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+}
+
+.section-text{
+    width: 80vw;
+}
+
+.section-text p{
+    font-size: 24px;
+    font-family: 'Titillium-Light', Arial, Helvetica, sans-serif;
+    padding-bottom:10px;
+}
+
+.with-image{
+    flex-direction: row ;
+}
+.image-left{
+flex-direction: row;
+}
+
+.image-right{
+flex-direction: row-reverse;
+}
+
+.section-image{
+    height:300px;
+    padding: 0 40px 0;
+    
+}
+.section-image-caption{
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.section-image-caption figcaption{
+    padding-top:10px;
+}
+
+.section-text-container{
+    padding: 0 20px 0;
+    justify-content: space-evenly;
+    
+}
+
+.section-title{
+    font-size: 36px;    
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+
+.section.text p{ 
+    font-size: 24px;
+    font-family: 'Titillium-Light', Arial, Helvetica, sans-serif;
+    padding-bottom: 10px
+}
+
+
+

@@ -12,36 +12,47 @@ function Cards() {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem 
-                        src={process.env.PUBLIC_URL + "/Images/process-main-menu.png"}
-                        text="Diagnostics app to automate life"
+                        src={process.env.PUBLIC_URL + "/Images/DiagnosticCover2.png"}
+                        title="Automated Process Diagnostics"
+                        desc="Converts plain text files into digital data for a total immersive diagnostics system."
                         label="Web App"
-                        path='/diagnostics'
+                        path='/ProcessDiag'
+                        techUsed="C# / ASP.Net Core / Entity / Javascript"
                         />
                         <CardItem 
                         src={process.env.PUBLIC_URL + "/Images/test.jpg"}
-                        text="Stegography - Hide messages in images"
+                        title="CryptoPic"
+                        desc="Hides Passwords / Messages in images in a undetectable way."
                         label="Desktop App"
                         path='/diagnostics'
+                        techUsed="C# / .Net Framework / Winforms"
                         />
                     </ul>
                     <ul className="cards__items">
+                        
                         <CardItem 
                         src={process.env.PUBLIC_URL + "/Images/test2.jpg"}
-                        text="File watcher and uploader"
-                        label="Desktop App"
+                        title="My Portfolio"
+                        desc="The site you are viewing now. The site that inspired you to hire me :)"
+                        label="Web"
                         path='/diagnostics'
+                        techUsed="React"
                         />
                         <CardItem 
                         src={process.env.PUBLIC_URL + "/Images/test3.jpg"}
-                        text="Soduko Puzzle Solver"
+                        title="Soduko Puzzle Solver"
                         label="Web App"
+                        desc = "Built as a side project when learning Javascript."
                         path='/diagnostics'
+                        techUsed="Javascript"
                         />
-                        <CardItem 
+                       <CardItem 
                         src={process.env.PUBLIC_URL + "/Images/test4.jpg"}
-                        text="Business Management Software"
+                        title="Business Management Software"
                         label="Desktop App"
+                        desc="Complete managemtn studio for my wifes business. Manages Sales, Inventory, Accounts &amp; Customers."
                         path='/diagnostics'
+                        techUsed="C# / SQL / Winforms"
                         />
                     </ul>
                 </div>

@@ -1,7 +1,12 @@
 @import './Root.css';
 
 .project-page .project-welcome-container{
-    height:400px;
+    height:auto;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: var(--primero-darkblue);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
@@ -10,10 +15,15 @@
 }
 
 .project-page .project-welcome-container .page-title{
+    font-size: 72px;
+    color:white;
+    padding-bottom: 20px;
+}
+.project-page .project-welcome-container .page-message{
     color:white;
     padding: 20px 0;
     width:60vw;
-    font-size: large;
+    font-size: 28px;
     font-family: 'Titillium-Light', Arial, Helvetica, sans-serif;
 }
 

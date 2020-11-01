@@ -111,19 +111,39 @@
   }
   
   .cards__item__info {
-    padding: 20px 30px 30px;
+    padding: 20px 30px 20px;
     background-color: white;
     height:100%;
     display:flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    
   }
   
-  .cards__item__text {
+  .cards__item__title {
     color:var(--primero-darkblue);
     font-size: 26px;
     text-align: center;
     font-family: 'Titillium-light', Arial;
+    
+  }
+
+  .tech__used{
+    padding-top:20px;
+    position: absolute;
+    bottom: 0;    
+    padding-bottom: 20px;
+    color: var(--primero-lightblue);
+    font-family: 'Titillium-SemiBold', Arial, Helvetica, sans-serif;
+  }
+
+  .cards__item__desc{
+    color: var(--primero-darkblue);
+    font-size:20px;
+    text-align: center;
+    font-family: 'Titillium-light', Arial, Helvetica, sans-serif;
+    padding-bottom:40px;
   }
   
   @media only screen and (min-width: 1200px) {
