@@ -6,7 +6,7 @@ import ProjectWelcome from '../ProjectWelcome'
 
 function Projects() {
     return (
-        <div class="project-page">
+        <div className="project-page">
             <ProjectWelcome />
             <Cards />
             

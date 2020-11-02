@@ -1,29 +1,13 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import './css/NavBar.css'
-import {Link as Link} from 'react-router-dom'
-import {Link as ScrollLink} from 'react-scroll';
-import { Button } from './Button.js';
+import {Link} from 'react-router-dom'
+
 
 function NavBar(){
     const [click, setClick] = useState(false);
-    const [button, setButton] = useState(true);
-
     const handleClick = () => setClick(!click)
     const closeMobileMenu = () => setClick(false);
-    const showButton = () => {
-        if(window.innerWidth <= 960){
-            setButton(false)
-        }
-        else{
-            setButton(true);
-        }
-    }
-    useEffect(() => {
-        showButton();
-    }, []);
-
-    window.addEventListener('resize', showButton);
-
+    
     return(
         <nav className="navbar">
             <div className="navbar-container">            
@@ -49,7 +33,7 @@ function NavBar(){
                         <Link to="/Projects" className="nav-links" onClick={closeMobileMenu}>
                             Projects
                         </Link>
-                        {/* <ScrollLink to="projects" spy={true} scroll={true} duration={500} className="nav-links">Projects</ScrollLink> */}
+                        
 
                     </li>
                     <li className="nav-item">

@@ -15,7 +15,7 @@ function AboutMe() {
                     in my mind to start coding again so 2 years ago I set out to get back in the game.
                 </p>
                 <p>
-                    In the last 2 years I have become <img src={process.env.PUBLIC_URL + '/Images/Microsoft.png'} alt="Microsoft Logo" class="microsoft-logo"></img> certfied in C#, ASP.net, Html / CSS / Javascript. I have built numerous applications and am ready to shift
+                    In the last 2 years I have become <img src={process.env.PUBLIC_URL + '/Images/Microsoft.png'} alt="Microsoft Logo" className="microsoft-logo"></img> certfied in C#, ASP.net, Html / CSS / Javascript. I have built numerous applications and am ready to shift
                     my career into software development (where it belongs).
                 </p>
             </div>
