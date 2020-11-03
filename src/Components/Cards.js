@@ -2,12 +2,11 @@ import React from 'react'
 import CardItem from './CardItem'
 import './css/Cards.css'
 
-function Cards() {
+function Cards(props) {
+    let backgroundColour = require('./Helpers/BackgroundColourPicker').setBGColourClass(props.bgColour);
+    
     return (
-        <div className="cards" id="projects">
-            
-            <h1>Projects</h1>
-            
+        <div className={`cards ${backgroundColour}`} id="projects">
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">

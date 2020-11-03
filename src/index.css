@@ -1,12 +1,11 @@
-.body{
-  background-color: var(--primero-darkblue);
+.body{  
   min-width: 700px;
   width:100%;
-  
 }
+
 #root{ 
   width:100%;
-  background-color: var(--primero-darkblue);
+  background-color: white;
   
 
 }

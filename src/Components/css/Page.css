@@ -22,12 +22,14 @@
     font-size: 64px;    
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .heading-text{
     font-size: 28px;
     font-family: 'Titillium-Light', Arial, Helvetica, sans-serif;
     text-align: center;
+    width: 90vw;
 }
 
 .page-body-section{
@@ -73,8 +75,18 @@
     border-radius: 2px;
 }
 
-.page-body-section ul{
+.blank-section{
+    height:100px;
+    min-height:100px;
+    padding-top:0;
+    padding-bottom:0;
+}
+
+.ul-in-paragraph{
     padding:10px 75px 20px;
+}
+.page-body-section ul{
+    
     font-size: 24px;
 }
 
@@ -160,6 +172,7 @@
     font-size: 36px;    
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     padding-bottom: 20px;
+    
 }
 
 .section.text p{ 
@@ -183,6 +196,8 @@ align-items: center;
 }
 
 @media screen and (max-width:1350px){
+    
+    
     .image-large{
         width: 500px;
     }
@@ -202,6 +217,13 @@ align-items: center;
 
 }
 @media screen and (max-width:960px){
+
+.page-body-section{
+    padding-left:5px;
+    padding-right:5px;
+    
+}
+
 .with-image{
  flex-direction: column;  
       
@@ -277,6 +299,38 @@ padding: 20px 30px 0;
         width:395px;
         height: 210px;
         }
+    .heading-title{
+        font-size: 30px;      
+    }
+    
+    .heading-text{
+        font-size: 18px;    
+    }
+
+    .section-text p{
+        padding-left: 2px;
+        padding-right: 2px;
+        font-size: 16px;
+    }
+
+    .ul-in-paragraph{
+        padding-left:40px;
+        padding-right:30px;
+    }
+
+   .page-heading{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
+   }
+
+   .second-to-last-section{    
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
+   }
+    
+    .page-body-section ul li{    
+        font-size:16px;
+    }
     }
 
     @media screen and (max-width:400px){
@@ -294,6 +348,14 @@ padding: 20px 30px 0;
                 padding-left: 2px;
                 padding-right: 2px;
                 
+            }
+
+            .heading-title{
+                font-size: 22px;      
+            }
+            
+            .heading-text{
+                font-size: 14px;    
             }
         /* .section-image{
             height: 900px;

@@ -1,24 +1,19 @@
 @import './Root.css';
 
-.cards {
-    padding: 4rem;
-    /* background: #192e3e; */
-    background-color: var(--primero-darkblue);
-    /* background-color: white; */
+/* .cards {
+    
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
     margin-top: -100px;
     padding-top: 100px;
     position: relative;
-    z-index: 97;
-    color: white;
+    z-index: 97;    
     padding-bottom: 150px;
-  }
+  } */
   
   .cards h1 {
     text-align: center;
     font-size: 48px;
-    color:white;
     font-family: 'Raleway', Arial, Helvetica, sans-serif; 
   }
   
@@ -26,8 +21,7 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    max-width: 1120px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
    
   }
@@ -39,11 +33,13 @@
   
   .cards__items {
     margin-bottom: 24px;
+    padding-left:0;
+    padding-right:0;
   }
   
   .cards__item {
     display: flex;
-    flex: 1;
+    flex: 1; 
     margin: 0 1rem;
     border-radius: 10px;
     border: 0px solid var(--primero-lightblue);
@@ -136,6 +132,7 @@
     padding-bottom: 20px;
     color: var(--primero-lightblue);
     font-family: 'Titillium-SemiBold', Arial, Helvetica, sans-serif;
+    font-size:18px;
   }
 
   .cards__item__desc{
@@ -165,19 +162,33 @@
   }
 
   @media screen and (max-width: 960px){
-    .cards__item__text {
-        font-size: 20px;
-    }
+    
   }
 
   @media screen and (max-width: 768px){
-    .cards__item__text {
-        font-size: 18px;
+    .cards__item__title{
+      font-size: 22px;
+    }
+
+    .cards__item__desc{
+      font-size: 18px;
+    }
+
+    .tech__used{
+      font-size: 16px;
     }
   }
 
   @media screen and (max-width: 400px){
-    .cards__item__text {
-        font-size: 16px;
+    .cards__item__title{
+      font-size: 18px;
+    }
+
+    .cards__item__desc{
+      font-size: 16px;
+    }
+
+    .tech__used{
+      font-size: 14px;
     }
   }

@@ -11,7 +11,7 @@ function IdeaText() {
                 full potential. Here is a list of proposed benefits.
             </p>
 
-            <ul>
+            <ul className="ul-in-paragraph">
                 <li>Batch reports broken down and easy to understand. (see result)</li>
                 <li>Stoppage data for engineers to plan maintenance.</li>
                 <li>Potential quality issues highlighted.</li>
