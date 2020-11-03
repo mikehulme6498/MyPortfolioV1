@@ -18,6 +18,7 @@ function AboutMe() {
                     In the last 2 years I have become <img src={process.env.PUBLIC_URL + '/Images/Microsoft.png'} alt="Microsoft Logo" className="microsoft-logo"></img> certfied in C#, ASP.net, Html / CSS / Javascript. I have built numerous applications and am ready to shift
                     my career into software development (where it belongs).
                 </p>
+                
             </div>
         </div>
     )

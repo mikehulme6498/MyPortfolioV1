@@ -1,14 +1,18 @@
 import React from 'react'
 
+
 function PageBodySection(props) {
 
-    const lastSection = props.lastSection === true ? "last-section" : "";
+    const firstOrLastSectionSection = props.shiftUpForLine === true ? "shift-up-for-line" : "";
     const secondToLast = props.secondToLast === true ? "second-to-last-section" : "";
+    let backgroundColour = require('./Helpers/BackgroundColourPicker').setBGColourClass(props.bgColour);
 
+    
     return (
-        <div className={`page-body-section ${lastSection} ${secondToLast}`}>            
-            <div className="section-heading">{props.heading}</div>
-            <div className="section-text"><p>{props.text}</p></div>            
+        <div className={`page-body-section ${secondToLast} ${firstOrLastSectionSection} ${backgroundColour}`}>  
+        {/* <hr className="section-divide"></hr>           */}
+            <div className="section-heading">{props.title}</div>
+            <div className="section-text">{props.text}</div>            
         </div>
     )
 }

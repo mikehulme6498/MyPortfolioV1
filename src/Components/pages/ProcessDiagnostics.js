@@ -7,6 +7,7 @@ import DemoVideo from '../Projects/ProcessDiagnosticsText/DemoVideo';
 import IdeaText from '../Projects/ProcessDiagnosticsText/IdeaText';
 import NewBatchReportText from '../Projects/ProcessDiagnosticsText/NewBatchReportText';
 import ProblemText from '../Projects/ProcessDiagnosticsText/ProblemText';
+import ResultsHeadingText from '../Projects/ProcessDiagnosticsText/ResultsHeadingText';
 import UploadResultText from '../Projects/ProcessDiagnosticsText/UploadResultText';
 
 
@@ -14,49 +15,57 @@ export default function Products(){
     
     return (
         <>
-        <PageHeading title="Automated Process Diagnostics" text="Designed to revolutionise how the production plant diagnosis the process"/>
+        <PageHeading 
+            title="Automated Process Diagnostics" 
+            text="Designed to revolutionise how the production plant diagnosis the process (Add button for video and github)"
+        />
         
         <PageBodySectionWithImage 
-            imagePosition="left" 
-            image='/Images/StackedReports.png' 
-            caption="Batch reports produced by the system"
             title="The Problem" 
             text={<ProblemText />}
+            imagePosition="right" 
+            image='/Images/ReportDemo.png' 
+            caption="This is an example of one report (hover or click to expand)"
+            imageShadow = {true}
+            imageExpandable = {true}            
+            shiftUpForLine={true}            
         />
-        {/* <PageBodySection heading="The Idea" text={ideaText} /> */}
+        
         <PageBodySectionWithImage 
-            imagePosition="right"  
-            image='/Images/DiagnosticCover2.png'
-            imageRounded={true}
-            imageLarge={true}
-            caption="The idea!"
             title="The Idea" 
             text={<IdeaText />}
+            imagePosition="left"  
+            image='/Images/StackedReports.png'
+            imageRounded={true}
+            caption="The idea!"
+            
         />
         <PageBodySection 
-            heading="The Results"
-            text="The results are shown below showing some of the major features and benefits. There is also a video demo at the bottom of this page."
+            title="The Results"
+            text={<ResultsHeadingText />}
         />
         <PageBodySectionWithImage 
-            imagePosition="right"  
-            image='/Gifs/UploadDemo.gif'
-            caption="Uploading batches as simple as drag and drop."
             title="Upload Batch Process" 
             text={<UploadResultText/>}
+            imagePosition="right"  
+            image='/Gifs/UploadDemo.gif'
+            caption="Uploading batches as simple as drag and drop."           
         />
+
          <PageBodySectionWithImage 
+            title="Easy batch search &amp; new batch reports" 
+            text={<NewBatchReportText />}
             imagePosition="left"  
             image='/Gifs/UploadDemo.gif'
-            caption="Easy search &amp; new batch report view."
-            title="Easy batch search &amp; new batch reports" 
-            secondToLast={true}
-            text={<NewBatchReportText />}
+            caption="Easy search &amp; new batch report view."            
+            secondToLast={true}            
         />
 
         <PageBodySection 
-            heading="Demo Video" 
+            title="Demo Video" 
             text={<DemoVideo />} 
-            lastSection={true}
+            shiftUpForLine={true}
+            bgColour="darkblue"
         />
         </>
     )

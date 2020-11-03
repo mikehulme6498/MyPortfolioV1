@@ -3,8 +3,14 @@ import React from 'react'
 function IdeaText() {
     return (
         <div>
-            <p>The idea was to create software that would read through each text file and extract all the data into digital manageable data, which could be stored in a database and queried as needed.</p>
-            <p>This would mean all the information would be retrievable in seconds. Meaning the reports could be used to there full potential. Here is a list of how the software would benefit the team.</p>
+            <p>The idea was to create software that would read through each text file and extract all the data into digital 
+                manageable data, which could be stored in a database and queried as needed.
+            </p>
+            <p>
+                This would mean all the information would be retrievable in seconds. Meaning the reports could be used to there 
+                full potential. Here is a list of proposed benefits.
+            </p>
+
             <ul>
                 <li>Batch reports broken down and easy to understand. (see result)</li>
                 <li>Stoppage data for engineers to plan maintenance.</li>

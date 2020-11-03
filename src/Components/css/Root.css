@@ -24,4 +24,24 @@ font-family: 'Raleway';
 src: local('Raleway'), url(../../Fonts/Raleway-Regular.woff) format('woff');
 }
 
+.bg-primero-darkBlue{
+    background-color: var(--primero-darkblue);
+    color: white;
+}
+
+
+.bg-primero-lightBlue{
+    background-color: var(--primero-lightblue);
+    color:white;
+}
+
+.bg-primero-orange{
+    background-color: var(--primero-orange);
+    color:var(--primero-darkblue);
+}
+
+.bg-primero-white{
+    background-color: white;
+    color:var(--primero-darkblue);
+}
 
