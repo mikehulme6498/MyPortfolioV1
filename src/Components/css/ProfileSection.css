@@ -34,7 +34,7 @@ video{
 .profile-description{
     color:white;  
     text-align: left;
-    padding-right:50px;
+    /* padding-right:50px; */
     animation: slowAppear 0.5s linear;
 }
 
@@ -139,7 +139,7 @@ clip-path: polygon(0 0, 100% 0, 100% calc(100% - 100px), 0 100%); clip left */
     .profile-description{
         text-align: left;
         padding-bottom: 30px;
-        padding-left: 30px;
+        /* padding-left: 30px; */
     }
 
     
@@ -200,11 +200,11 @@ clip-path: polygon(0 0, 100% 0, 100% calc(100% - 100px), 0 100%); clip left */
     .profile-description{
         text-align: center;
         padding-bottom: 30px;
-        padding-left: 30px;
+        /* padding-left: 30px; */
     }
 
     .profile-description .title{
-        /* font-size:48px; */
+        
         text-align: center;
     }
 
@@ -224,7 +224,10 @@ clip-path: polygon(0 0, 100% 0, 100% calc(100% - 100px), 0 100%); clip left */
    
     .profile-description{
         padding-right: 0;
-        
+    }
+
+    .profile-description .title{
+        font-size: 30px;
     }
     
 }

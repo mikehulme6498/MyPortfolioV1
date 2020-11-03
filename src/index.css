@@ -1,13 +1,12 @@
 .body{  
   min-width: 700px;
   width:100%;
+  background-color: white;
 }
 
 #root{ 
   width:100%;
   background-color: white;
-  
-
 }
 
 /* font software - eras medium */
