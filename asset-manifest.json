@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MyPortfolioV1/static/css/main.13106cd1.chunk.css",
+    "main.css": "/MyPortfolioV1/static/css/main.c91dfb73.chunk.css",
     "main.js": "/MyPortfolioV1/static/js/main.5ed31eb5.chunk.js",
     "main.js.map": "/MyPortfolioV1/static/js/main.5ed31eb5.chunk.js.map",
     "runtime-main.js": "/MyPortfolioV1/static/js/runtime-main.4b2bd135.js",
@@ -10,14 +10,14 @@
     "static/js/3.fbf76aed.chunk.js": "/MyPortfolioV1/static/js/3.fbf76aed.chunk.js",
     "static/js/3.fbf76aed.chunk.js.map": "/MyPortfolioV1/static/js/3.fbf76aed.chunk.js.map",
     "index.html": "/MyPortfolioV1/index.html",
-    "static/css/main.13106cd1.chunk.css.map": "/MyPortfolioV1/static/css/main.13106cd1.chunk.css.map",
+    "static/css/main.c91dfb73.chunk.css.map": "/MyPortfolioV1/static/css/main.c91dfb73.chunk.css.map",
     "static/js/2.10fbd681.chunk.js.LICENSE.txt": "/MyPortfolioV1/static/js/2.10fbd681.chunk.js.LICENSE.txt",
     "static/media/ProfileSection.css": "/MyPortfolioV1/static/media/TitilliumWeb-SemiBold.648d6c61.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.4b2bd135.js",
     "static/js/2.10fbd681.chunk.js",
-    "static/css/main.13106cd1.chunk.css",
+    "static/css/main.c91dfb73.chunk.css",
     "static/js/main.5ed31eb5.chunk.js"
   ]
 }
