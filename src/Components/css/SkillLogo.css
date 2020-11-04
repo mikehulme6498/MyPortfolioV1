@@ -1,0 +1,9 @@
+.skill-logo{
+    height: 75px;
+    padding: 0 5px 0;
+    transition: all 0.2s linear;
+}
+
+.skill-logo:hover{
+    transform: scale(1.3);
+}

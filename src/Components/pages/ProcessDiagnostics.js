@@ -3,8 +3,12 @@ import '../../App.css';
 import PageBodySection from '../PageBodySection';
 import PageBodySectionWithImage from '../PageBodySectionWithImage';
 import PageHeading from '../PageHeading';
+import ComplianceResultText from '../Projects/ProcessDiagnosticsText/ComplianceResultText';
+import ConclusionText from '../Projects/ProcessDiagnosticsText/ConclusionText';
+import ControlChartResultsText from '../Projects/ProcessDiagnosticsText/ControlChartResultsText';
 import DemoVideo from '../Projects/ProcessDiagnosticsText/DemoVideo';
 import IdeaText from '../Projects/ProcessDiagnosticsText/IdeaText';
+import MatVarResultText from '../Projects/ProcessDiagnosticsText/MatVarResultText';
 import NewBatchReportText from '../Projects/ProcessDiagnosticsText/NewBatchReportText';
 import ProblemText from '../Projects/ProcessDiagnosticsText/ProblemText';
 import ResultsHeadingText from '../Projects/ProcessDiagnosticsText/ResultsHeadingText';
@@ -36,6 +40,7 @@ export default function Products(){
             text={<IdeaText />}
             imagePosition="left"  
             image='/Images/StackedReports.png'
+            secondToLast={true}
             imageRounded={true}
             caption="The idea!"
             
@@ -43,29 +48,77 @@ export default function Products(){
         <PageBodySection 
             title="The Results"
             text={<ResultsHeadingText />}
+            bgColour="darkblue"            
+            shiftUpForLine={true}
         />
+
         <PageBodySectionWithImage 
             title="Upload Batch Process" 
             text={<UploadResultText/>}
             imagePosition="right"  
             image='/Gifs/UploadDemo.gif'
-            caption="Uploading batches as simple as drag and drop."           
+            imageLarge={true}
+            caption="Uploading batches as simple as drag and drop."  
+            bgColour="darkblue"
         />
 
          <PageBodySectionWithImage 
-            title="Easy batch search &amp; new batch reports" 
+            title="Easy report search &amp; report views" 
             text={<NewBatchReportText />}
             imagePosition="left"  
             image='/Gifs/UploadDemo.gif'
+            imageLarge={true}
             caption="Easy search &amp; new batch report view."            
-            secondToLast={true}            
+            bgColour="darkblue"        
+        />
+         <PageBodySectionWithImage 
+            title="Complaince Checks" 
+            text={<ComplianceResultText />}
+            imagePosition="right"  
+            image='/Gifs/UploadDemo.gif'
+            imageLarge={true}
+            caption="Uploading batches as simple as drag and drop."  
+            bgColour="darkblue"
+        />
+
+         <PageBodySectionWithImage 
+            title="Control Charts" 
+            text={<ControlChartResultsText />}
+            imagePosition="left"  
+            image='/Gifs/UploadDemo.gif'
+            imageLarge={true}
+            caption="Easy search &amp; new batch report view."            
+            bgColour="darkblue"     
+            
+        />
+
+        <PageBodySectionWithImage 
+            title="Material Variance Information" 
+            text={<MatVarResultText />}
+            imagePosition="right"  
+            image='/Gifs/UploadDemo.gif'
+            imageLarge={true}
+            caption="Uploading batches as simple as drag and drop."  
+            bgColour="darkblue"
+            
+        />
+        <PageBodySection 
+        title="Conclusion"
+        text={<ConclusionText />}
+        bgColour="darkblue"
+        
+        />
+        <PageBodySection 
+            blackSection={true}
+            secondToLast={true}
+            bgColour="darkblue"
         />
 
         <PageBodySection 
             title="Demo Video" 
             text={<DemoVideo />} 
             shiftUpForLine={true}
-            bgColour="darkblue"
+            bgColour="white"
         />
         </>
     )

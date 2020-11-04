@@ -5,6 +5,7 @@ import Cards from '../Cards'
 import Footer from '../Footer'
 import PageBodySection from '../PageBodySection'
 import ProfileSection from '../ProfileSection'
+import SkillSets from '../SkillSets'
 
 
 function Home(){
@@ -12,19 +13,33 @@ function Home(){
         <>
             <ProfileSection /> 
             <PageBodySection 
-             title="About Me"
-             text={<AboutMe />}
-             shiftUpForLine={true}
-             secondToLast={true}
+                title="About Me"
+                text={<AboutMe />}
+                shiftUpForLine={true}
+                secondToLast={true}
             />
             <PageBodySection secondToLast={true} blankSection={true}/>
-            <PageBodySection
-            title="Projects"
-            text={<Cards bgColour="darkblue" />}
-            bgColour="darkblue"
-            shiftUpForLine={true}
+             <PageBodySection 
+                title="Skill Set" 
+                text={<SkillSets />}
+                bgColour="darkblue"
+                shiftUpForLine={true} 
             />
-            <Footer />
+            <PageBodySection secondToLast={true} blankSection={true} bgColour="darkblue"/>
+            <PageBodySection
+                title="Projects"
+                text={<Cards />}
+                bgColour="white"
+                shiftUpForLine={true}
+            />
+           <PageBodySection secondToLast={true} blankSection={true}/>
+           <PageBodySection
+                title="Projects"
+                text={<Footer />}
+                bgColour="darkblue"
+                shiftUpForLine={true}
+            /> 
+            
         </>
     )
 }

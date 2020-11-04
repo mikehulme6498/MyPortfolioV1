@@ -33,7 +33,7 @@
 }
 
 .page-body-section{
-    min-height: 500px;
+    /* min-height: 300px; */
     height: auto;    
     display: flex;
     flex-direction: column;
@@ -120,6 +120,7 @@
 
 .image-right{
     flex-direction: row-reverse;
+    justify-content: flex-end;
 }
 
 .section-image{

@@ -19,7 +19,7 @@ function Cards(props) {
                         techUsed="C# / ASP.Net Core / Entity / Javascript"
                         />
                         <CardItem 
-                        src={process.env.PUBLIC_URL + "/Images/test.jpg"}
+                        src={process.env.PUBLIC_URL + "/Images/CryptoPic2.png"}
                         title="CryptoPic"
                         desc="Hides Passwords / Messages in images in a undetectable way."
                         label="Desktop App"
