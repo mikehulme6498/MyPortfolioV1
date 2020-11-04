@@ -11,8 +11,8 @@ function ProfileSection() {
             <div className="profile-section">
             
             <div className="profile-description">
-                <div className="title"> Hey, I'm Mike</div>
-                <div className="message"><p>I am passionate about creating software that solves real world problems.</p>
+                <div className="title"> Hi, I'm Mike</div>
+                <div className="message"><p>I am passionate about creating software that solve real world problems.</p>
                 <p></p>
                 
                 </div>

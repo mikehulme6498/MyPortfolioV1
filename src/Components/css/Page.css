@@ -19,7 +19,7 @@
 }
 
 .heading-title{
-    font-size: 64px;    
+    font-size: 48px;    
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     text-align: center;
     padding-bottom: 20px;
@@ -43,7 +43,7 @@
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 100px;
-    
+    margin-top: -1px;
 }
 
 .second-to-last-section{    
@@ -76,23 +76,23 @@
 }
 
 .blank-section{
-    height:100px;
+    height:101px;
     min-height:100px;
     padding-top:0;
     padding-bottom:0;
+   
 }
 
 .ul-in-paragraph{
     padding:10px 75px 20px;
 }
-.page-body-section ul{
-    
-    font-size: 24px;
+.page-body-section ul{    
+    font-size: 20px;
 }
 
 .page-body-section ul li{
     font-family: 'Titillium-Light', Arial, Helvetica, sans-serif;
-    font-size:24px;
+    font-size:20px;
 }
 
 
@@ -103,10 +103,9 @@
 }
 
 .section-text p{
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Titillium-Light', Arial, Helvetica, sans-serif;
-    padding-bottom:10px;
-    
+    padding-bottom:10px;    
 }
 
 .with-image{
@@ -115,7 +114,6 @@
 
 .image-left{
     flex-direction: row;
-
 }
 
 .image-right{
@@ -124,7 +122,6 @@
 }
 
 .section-image{
-    /* height:300px; */
     padding: 0 40px 0;    
 }
 
@@ -172,8 +169,7 @@
 .section-title{
     font-size: 36px;    
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
-    padding-bottom: 20px;
-    
+    padding-bottom: 20px;    
 }
 
 .section.text p{ 
@@ -183,25 +179,23 @@
 }
 
 .demo-video{
-display:flex;
-flex-direction: column;
-align-content: center;
-justify-content: center;
-align-items: center;
-
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .demo-video iframe{
-    margin-top:30px;
-    
+    margin-top:30px;    
 }
 
-@media screen and (max-width:1350px){
-    
+@media screen and (max-width:1350px){    
     
     .image-large{
         width: 500px;
     }
+
     .section-title{
         font-size: 30px;    
     }
@@ -213,126 +207,121 @@ align-items: center;
     .page-body-section ul li{    
         font-size:20px;
     }
-
-
-
 }
+
 @media screen and (max-width:960px){
 
-.page-body-section{
-    padding-left:10px;
-    padding-right:10px;
-    
-}
-
-.with-image{
- flex-direction: column;  
-      
-}
-
-.with-image .section-title{
-    text-align: center;
-    padding-top: 30px;   
-}
-
-.with-image .section-text-container{
-    width:100%;
-}
-
-.with-image .section-image-caption{
-order: 2;
--webkit-order: 2;
-padding-top: 30px;
-}
-
-.image-normal{
-    width: 70%;
-}
-
-.image.large{
-width: 70%;
-}
-
-.with-image .section-image-caption .image-large img{
- height:300px;
-}
-
-.with-image .section-image-caption figcaption {
-    font-size:12px;
-}
-
-
-.section-text p{
-font-size:18px;
-padding: 20px 30px 0;
-}
-
-.section-heading{
-    font-size: 30px;    
-    font-family: 'Raleway', Arial, Helvetica, sans-serif;
-}
-
-.section-text p{
-    font-size: 18px;    
-}
-
-.page-body-section ul li{    
-    font-size:18px;
-}
-
-.heading-title{
-    font-size: 36px;      
-}
-
-.heading-text{
-    font-size: 22px;    
-}
-
-.demo-video iframe{    
-    width:650px;
-    height: 315px;
+    .page-body-section{
+        padding-left:10px;
+        padding-right:10px;    
     }
-}
 
-@media screen and (max-width:768px){
-        
-    .demo-video iframe{        
-        width:395px;
-        height: 210px;
-        }
-    .heading-title{
-        font-size: 30px;      
+    .with-image{
+        flex-direction: column;       
     }
-    
-    .heading-text{
-        font-size: 18px;    
+
+    .with-image .section-title{
+        text-align: center;
+        padding-top: 30px;   
+    }
+
+    .with-image .section-text-container{
+        width:100%;
+    }
+
+    .with-image .section-image-caption{
+    order: 2;
+    -webkit-order: 2;
+    padding-top: 30px;
+    }
+
+    .image-normal{
+        width: 70%;
+    }
+
+    .image-large{
+        width: 100%;
+    }
+
+    .with-image .section-image-caption .image-large img{
+        height:300px;
+    }
+
+    .with-image .section-image-caption figcaption {
+        font-size:12px;
     }
 
     .section-text p{
-        padding-left: 2px;
-        padding-right: 2px;
-        font-size: 16px;
+        font-size:18px;
+        padding: 20px 30px 0;
     }
 
-    .ul-in-paragraph{
-        padding-left:40px;
-        padding-right:30px;
+    .section-heading{
+        font-size: 30px;    
+        font-family: 'Raleway', Arial, Helvetica, sans-serif;
     }
 
-   .page-heading{
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
-   }
+    .section-text p{
+        font-size: 18px;    
+    }
 
-   .second-to-last-section{    
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
-   }
-    
+    .page-body-section ul li{    
+        font-size:18px;
+    }
+
+    .heading-title{
+        font-size: 36px;      
+    }
+
+    .heading-text{
+        font-size: 22px;    
+    }
+
+    .demo-video iframe{    
+        width:650px;
+        height: 315px;
+        }
+    }
+
+    @media screen and (max-width:768px){
+            
+        .demo-video iframe{        
+            width:395px;
+            height: 210px;
+            }
+        .heading-title{
+            font-size: 30px;      
+        }
+        
+        .heading-text{
+            font-size: 18px;    
+        }
+
+        .section-text p{
+            padding-left: 2px;
+            padding-right: 2px;
+            font-size: 16px;
+        }
+
+        .ul-in-paragraph{
+            padding-left:40px;
+            padding-right:30px;
+        }
+
+    .page-heading{
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
+    }
+
+    .second-to-last-section{    
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
+    }
+        
     .page-body-section ul li{    
         font-size:16px;
     }
-    }
+}
 
     @media screen and (max-width:400px){
         

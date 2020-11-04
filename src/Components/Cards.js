@@ -11,12 +11,12 @@ function Cards(props) {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem 
-                        src={process.env.PUBLIC_URL + "/Images/DiagnosticCover2.png"}
+                        src={process.env.PUBLIC_URL + "/Images/DiagnosticCover5.png"}
                         title="Automated Process Diagnostics"
                         desc="Converts plain text files into digital data for a total immersive diagnostics system."
                         label="Web App"
                         path='/ProcessDiag'
-                        techUsed="C# / ASP.Net Core / Entity / Javascript"
+                        techUsed="C# / ASP.Net Core MVC / Entity / Javascript"
                         />
                         <CardItem 
                         src={process.env.PUBLIC_URL + "/Images/CryptoPic2.png"}

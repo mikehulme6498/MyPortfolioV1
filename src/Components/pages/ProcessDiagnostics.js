@@ -109,7 +109,7 @@ export default function Products(){
         
         />
         <PageBodySection 
-            blackSection={true}
+            blankSection={true}
             secondToLast={true}
             bgColour="darkblue"
         />
