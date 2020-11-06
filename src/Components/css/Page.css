@@ -40,8 +40,8 @@
     align-items: center;
     justify-content: flex-start;
     padding-top:10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
     padding-bottom: 100px;
     margin-top: -1px;
 }
@@ -212,8 +212,8 @@
 @media screen and (max-width:960px){
 
     .page-body-section{
-        padding-left:10px;
-        padding-right:10px;    
+        padding-left:50px;
+        padding-right:50px;    
     }
 
     .with-image{
@@ -316,6 +316,10 @@
     .second-to-last-section{    
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
+    }
+    .page-body-section{
+        padding-left:50px;
+        padding-right:50px;    
     }
         
     .page-body-section ul li{    

@@ -40,23 +40,23 @@ export default function Products(){
             text={<IdeaText />}
             imagePosition="left"  
             image='/Images/StackedReports.png'
-            secondToLast={true}
-            imageRounded={true}
-            caption="The idea!"
+            imageShadow={false}
+            secondToLast={true}            
+            caption="Reports printed and stacked"
             
         />
         <PageBodySection 
             title="The Results"
-            text={<ResultsHeadingText />}
+            text={<DemoVideo />}
             bgColour="darkblue"            
             shiftUpForLine={true}
         />
 
-        <PageBodySectionWithImage 
+        {/* <PageBodySectionWithImage 
             title="Upload Batch Process" 
             text={<UploadResultText/>}
             imagePosition="right"  
-            image='/Gifs/UploadDemo.gif'
+            image='/Gifs/UploadDemo2.gif'
             imageLarge={true}
             caption="Uploading batches as simple as drag and drop."  
             bgColour="darkblue"
@@ -66,7 +66,7 @@ export default function Products(){
             title="Easy report search &amp; report views" 
             text={<NewBatchReportText />}
             imagePosition="left"  
-            image='/Gifs/UploadDemo.gif'
+            image='/Gifs/BatchSearch.gif'
             imageLarge={true}
             caption="Easy search &amp; new batch report view."            
             bgColour="darkblue"        
@@ -75,7 +75,7 @@ export default function Products(){
             title="Complaince Checks" 
             text={<ComplianceResultText />}
             imagePosition="right"  
-            image='/Gifs/UploadDemo.gif'
+            image='/Gifs/Compliance.gif'
             imageLarge={true}
             caption="Uploading batches as simple as drag and drop."  
             bgColour="darkblue"
@@ -85,7 +85,7 @@ export default function Products(){
             title="Control Charts" 
             text={<ControlChartResultsText />}
             imagePosition="left"  
-            image='/Gifs/UploadDemo.gif'
+            image='/Gifs/ControlCharts.gif'
             imageLarge={true}
             caption="Easy search &amp; new batch report view."            
             bgColour="darkblue"     
@@ -112,14 +112,14 @@ export default function Products(){
             blankSection={true}
             secondToLast={true}
             bgColour="darkblue"
-        />
+        /> */}
 
-        <PageBodySection 
+        {/* <PageBodySection 
             title="Demo Video" 
             text={<DemoVideo />} 
             shiftUpForLine={true}
-            bgColour="white"
-        />
+            bgColour="darkblue"
+        /> */}
         </>
     )
 }
