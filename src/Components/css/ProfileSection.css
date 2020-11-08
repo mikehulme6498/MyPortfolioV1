@@ -39,7 +39,7 @@ video{
 }
 
 .profile-description .title{
-    padding-bottom: 30px;
+    
     font-size:72px;
     font-family: 'Raleway', Arial, Helvetica, sans-serif; 
     animation: slowAppear 0.5s linear;

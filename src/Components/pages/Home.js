@@ -13,7 +13,7 @@ function Home(){
         <>
             <ProfileSection /> 
             <PageBodySection 
-                title="About Me"
+                title="A Little About Me"
                 text={<AboutMe />}
                 shiftUpForLine={true}
                 secondToLast={true}

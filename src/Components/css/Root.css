@@ -2,6 +2,7 @@
     --primero-darkblue: #192e3e;
     --primero-lightblue: #5494b6;
     --primero-orange: #d77336;
+    --primero-grey: #C0C0C0;
     }
 
 @font-face {
@@ -18,6 +19,11 @@ src: local('TitilliumWeb-ExtraLightItalic'), url(../../Fonts/TitilliumWeb-ExtraL
 font-family: 'Titillium-SemiBold';
 src: local('TitilliumWeb-SemiBold'), url(../../Fonts/TitilliumWeb-SemiBold.woff) format('woff');
 }
+
+@font-face {
+    font-family: 'Titillium-Regular';
+    src: local('TitilliumWeb-Regular'), url(../../Fonts/TitilliumWeb-Regular.woff) format('woff');
+    }
 
 @font-face {
 font-family: 'Raleway';
@@ -42,6 +48,11 @@ src: local('Raleway'), url(../../Fonts/Raleway-Regular.woff) format('woff');
 
 .bg-primero-white{
     background-color: white;
+    color:var(--primero-darkblue);
+}
+
+.bg-primero-grey{
+    background-color: var(--primero-grey);
     color:var(--primero-darkblue);
 }
 

@@ -91,22 +91,17 @@
 }
 
 .page-body-section ul li{
-    font-family: 'Titillium-Light', Arial, Helvetica, sans-serif;
+    font-family: 'Titillium-Regular', Arial, Helvetica, sans-serif;
     font-size:20px;
 }
 
 
-.section-heading{
-    font-size: 36px;    
+/* .section-heading{
+    font-size: 48px;    
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     padding-bottom: 30px;
-}
+} */
 
-.section-text p{
-    font-size: 20px;
-    font-family: 'Titillium-Light', Arial, Helvetica, sans-serif;
-    padding-bottom:10px;    
-}
 
 .with-image{
     flex-direction: row ;    
@@ -167,16 +162,19 @@
 }
 
 .section-title{
-    font-size: 36px;    
+    font-size: 48px;    
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
-    padding-bottom: 20px;    
+    padding-bottom: 60px;    
 }
 
-.section.text p{ 
-    font-size: 24px;
-    font-family: 'Titillium-Light', Arial, Helvetica, sans-serif;
-    padding-bottom: 10px
+
+
+.section-text p{
+    font-size: 28px;
+    font-family: 'Titillium-Regular', Arial, Helvetica, sans-serif;
+    padding-bottom:30px;    
 }
+
 
 .demo-video{
     display:flex;
@@ -190,7 +188,15 @@
     margin-top:30px;    
 }
 
-@media screen and (max-width:1350px){    
+@media screen and (max-width:1900px){
+    .section-title{
+        font-size:47px;
+    }
+    .section-text p{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width:1349px){    
     
     .image-large{
         width: 500px;

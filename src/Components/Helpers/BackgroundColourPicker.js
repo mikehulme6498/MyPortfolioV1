@@ -11,6 +11,9 @@ var pickColour = function(colour){
         case "orange":
             backgroundColour = "bg-primero-orange";
             break;
+        case "grey":
+            backgroundColour = "bg-primero-grey";
+            break;
         default:
             backgroundColour = "bg-primero-white";
             break;
