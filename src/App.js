@@ -7,6 +7,7 @@ import ProcessDiagnostics from './Components/pages/ProcessDiagnostics';
 import Projects from './Components/pages/Projects';
 import AboutMe from './Components/AboutMe';
 import ScrollToTop from './Components/ScrollToTop';
+import CrpytoPic from './Components/pages/CryptoPic';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/Projects" component={Projects}></Route>
         <Route path="/AboutMe" component={AboutMe}></Route>
         <Route path="/ProcessDiag" component={ProcessDiagnostics}></Route>
+        <Route path="/CryptoPic" component={CrpytoPic}></Route>
       </Switch>
     </Router>
    

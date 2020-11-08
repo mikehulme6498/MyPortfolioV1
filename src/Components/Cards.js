@@ -23,7 +23,7 @@ function Cards(props) {
                         title="CryptoPic"
                         desc="Hides Passwords / Messages in images in a undetectable way."
                         label="Desktop App"
-                        path='/diagnostics'
+                        path='/CryptoPic'
                         techUsed="C# / .Net Framework / Winforms"
                         />
                     </ul>
