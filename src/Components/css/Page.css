@@ -17,18 +17,22 @@
     padding-top: 100px;
     
 }
-.button{
+.button-container{
     padding-top:30px;
 }
+
+.button-container button{
+    margin-left:30px;
+}
 .heading-title{
-    font-size: 48px;    
+    font-size: 42px;    
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     text-align: center;
     padding-bottom: 20px;
 }
 
 .heading-text{
-    font-size: 28px;
+    font-size: 22px;
     font-family: 'Titillium-Light', Arial, Helvetica, sans-serif;
     text-align: center;
     width: 90vw;
@@ -120,6 +124,11 @@
 
 .section-image{
     padding: 0 40px 0;    
+    transition: all 0.3s linear;
+}
+
+.section-image:hover{
+    cursor: zoom-in;
 }
 
 .image-rounded{
@@ -166,7 +175,7 @@
 .section-title{
     font-size: 48px;    
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
-    padding-bottom: 60px;    
+    padding-bottom: 20px;    
 }
 
 
@@ -190,22 +199,42 @@
     margin-top:30px;    
 }
 
+.text-center{
+    text-align: center;
+}
+
+.full-page-image{
+    /* position: absolute;
+    top: 100px;
+    bottom: 0px;
+    left: 15%;
+    right: 0;
+    height:70%;
+    width:auto; */
+    transform: scale(1.6);
+}
+
 @media screen and (max-width:1900px){
     .section-title{
-        font-size:47px;
+        font-size:30px;
     }
     .section-text p{
-        font-size: 28px;
+        font-size: 20px;
     }
 }
 @media screen and (max-width:1349px){    
     
     .image-large{
-        width: 500px;
+        width: 400px;
+    }
+
+   
+    .image-expandable{
+        width:400px
     }
 
     .section-title{
-        font-size: 30px;    
+        font-size: 38px;    
     }
 
     .section-text p{ 
@@ -214,6 +243,20 @@
 
     .page-body-section ul li{    
         font-size:20px;
+    }
+}
+
+@media screen and (max-width:1150px){    
+    
+    .image-large{
+        width: 300px;
+    }
+    .image-normal{
+        width:400px;
+    }
+
+    .image-expandable{
+        width:300px;
     }
 }
 

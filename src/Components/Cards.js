@@ -15,7 +15,7 @@ function Cards(props) {
                         title="Automated Process Diagnostics"
                         desc="Converts plain text files into digital data for a total immersive diagnostics system."
                         label="Web App"
-                        path='/ProcessDiag'
+                        path='/ProcessDiagnostics'
                         techUsed="C# / ASP.Net Core MVC / Entity / Javascript"
                         />
                         <CardItem 

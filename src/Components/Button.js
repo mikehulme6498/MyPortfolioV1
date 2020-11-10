@@ -10,20 +10,24 @@ export const Button = ({
     type, 
     onClick, 
     buttonStyle, 
-    buttonSize}) => {
+    buttonSize,
+    path,
+    icon}) => {
     const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
 
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
-
+    const useIcon = icon ? <i className={icon}></i> : null;
+    
     return(
-        <Link to="/" className="btn-mobile">
+        // <Link to="/" className="btn-mobile">
             <button
-            className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-            onClick={onClick}
+            className={`btn ${checkButtonStyle} ${checkButtonSize} btn-mobile`}
+            onClick={onClick}            
             type={type}
             >
+                {useIcon}
                 {children}
             </button>
-        </Link>
+        // </Link>
     )
 }

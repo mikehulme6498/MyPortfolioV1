@@ -8,8 +8,10 @@ function PageHeading(props) {
         <div className="page-heading">
                 <div className="heading-title">{props.title}</div>
                 <div className="heading-text">{props.text}</div>
-                <div className="button">
-                    <Button buttonStyle="btn--outline" buttonSize="btn--large">View Demo</Button> 
+                
+                <div className="button-container">
+                    {props.button}
+                    {props.button2 }
                 </div>
                    
         </div>     

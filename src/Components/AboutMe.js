@@ -5,15 +5,20 @@ function AboutMe() {
     return (
         <>          
             <p>
-                As a young boy at the age of 11 I started coding on my BBC Micro computer (showing my age a bit here). I was copying from a coding book and created 
-                my first application (a car racing game). I was hooked.
+            At the age of 11, I started coding on my BBC Micro computer (showing my age 
+            a bit here). I began copying word for word from a coding book my Mum gave me which enabled 
+            me to create my first application (a car racing game). This is where my passion 
+            for coding began.
             </p>
+
             <p>
-                I went on to college at 13 and completed City &amp; Guilds courses in Pascal and C. During my later teens I came away from it all. It's always been
-                in my mind to start coding again so 2 years ago I set out to get back in the game.
+            At the age of 13 whilst still at school, I joined college and completed 2 City &amp; Guilds 
+            courses in Pascal and C. However, in my later teens, I unfortunately came away from coding. 
+            This was always a regret of mine and therefore 2 years ago I decided to begin learning again.
             </p>
-            <p>
-                In the last 2 years I have become <img src={process.env.PUBLIC_URL + '/Images/Microsoft.png'} alt="Microsoft Logo" className="microsoft-logo"></img> certfied in C#, ASP.net, Html / CSS / Javascript. I have built numerous applications and am ready to shift
+            <p>Throughout the last 2 years I have become 
+                <img src={process.env.PUBLIC_URL + '/Images/Microsoft.png'} alt="Microsoft Logo" className="microsoft-logo"></img> 
+                certified in C#, ASP.net, Html / CSS / Javascript. I have built numerous applications and I now feel ready to shift 
                 my career into software development (where it belongs).
             </p>
         </>

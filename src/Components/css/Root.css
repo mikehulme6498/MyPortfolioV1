@@ -35,6 +35,10 @@ src: local('Raleway'), url(../../Fonts/Raleway-Regular.woff) format('woff');
     color: white;
 }
 
+.bg-primero-darkBlue p{
+    font-family: 'Titillium-Light' !important;
+}
+
 
 .bg-primero-lightBlue{
     background-color: var(--primero-lightblue);

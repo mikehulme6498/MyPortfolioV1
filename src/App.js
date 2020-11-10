@@ -23,7 +23,7 @@ function App() {
         <Route path="/MyPortfolioV1" component={Home}></Route>
         <Route path="/Projects" component={Projects}></Route>
         <Route path="/AboutMe" component={AboutMe}></Route>
-        <Route path="/ProcessDiag" component={ProcessDiagnostics}></Route>
+        <Route path="/ProcessDiagnostics" component={ProcessDiagnostics}></Route>
         <Route path="/CryptoPic" component={CrpytoPic}></Route>
       </Switch>
     </Router>

@@ -1,6 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function PageBodySectionWithImage(props) {
+
+
+    const [fullScreen, setFullScreen] = useState(false);
+    
+    let imageFullScreen = fullScreen ? "full-page-image" : null;
+
+    const handleFullScreen = () => {
+        setFullScreen(!fullScreen)
+        imageFullScreen = fullScreen ? "full-page-image" : null;
+    }
 
     const imagePosition = props.imagePosition === "right" ? "image-right" : "image-left";
     const firstOrLastSection = props.shiftUpForLine === true ? "shift-up-for-line" : "";
@@ -14,7 +24,13 @@ function PageBodySectionWithImage(props) {
     return (
         <div className={`page-body-section with-image ${imagePosition} ${firstOrLastSection} ${secondToLast} ${backgroundColour}`}>
             <figure className="section-image-caption">
-            <img src={process.env.PUBLIC_URL + `${props.image}`} className={`section-image ${roundedImage} ${largeImage} ${shadowImage} ${expandableImage}`} alt={props.image} />
+            
+
+            <img src={process.env.PUBLIC_URL + `${props.image}`} 
+                className={`section-image ${roundedImage} ${largeImage} ${shadowImage} ${expandableImage} ${imageFullScreen}`} 
+                alt={props.image} 
+                onClick={handleFullScreen}
+            />
             <figcaption>Fig - {props.caption}</figcaption>
             </figure>
             <div className="section-text-container">

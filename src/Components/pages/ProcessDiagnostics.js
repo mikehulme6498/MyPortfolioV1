@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import '../../App.css';
+import { Button } from '../Button';
 import PageBodySection from '../PageBodySection';
 import PageBodySectionWithImage from '../PageBodySectionWithImage';
 import PageHeading from '../PageHeading';
@@ -15,13 +16,22 @@ import ResultsHeadingText from '../Projects/ProcessDiagnosticsText/ResultsHeadin
 import UploadResultText from '../Projects/ProcessDiagnosticsText/UploadResultText';
 
 
-export default function Products(){
-    
+export default function ProcessDiagnostics(){
+
+    const videoSection = useRef(null)
+    const gotoVideoSection = () => window.scrollTo({
+        top: videoSection.current.offsetTop + 100,
+        behavior: "smooth"
+    })
+
     return (
         <>
         <PageHeading 
-            title="Automated Process Diagnostics" 
-            text="Designed to revolutionise how the production plant diagnosis the process (Add button for video and github)"
+            title="APOS (Automated Process Optimization System)" 
+            text="Designed to revolutionise how the production plant diagnosis the process"
+            button={<Button buttonStyle="btn--outline" icon="fab fa-youtube" onClick={gotoVideoSection}>Demo</Button>}
+            // button2={<Button buttonStyle="btn--outline" icon="fab fa-github">View Code</Button>}
+        
         />
         
         <PageBodySectionWithImage 
@@ -29,7 +39,7 @@ export default function Products(){
             text={<ProblemText />}
             imagePosition="right" 
             image='/Images/ReportDemo.png' 
-            caption="This is an example of one report (hover or click to expand)"
+            caption="This is an example of a current report (hover or click to expand)"
             imageShadow = {true}
             imageExpandable = {true}            
             shiftUpForLine={true}            
@@ -42,15 +52,17 @@ export default function Products(){
             image='/Images/StackedReports.png'
             imageShadow={false}
             secondToLast={true}            
-            caption="Reports printed and stacked"
+            caption="Reports printed (there are 5 pages per report)"
             
         />
-        <PageBodySection 
-            title="The Results"
-            text={<DemoVideo />}
-            bgColour="darkblue"            
-            shiftUpForLine={true}
-        />
+        <div ref={videoSection}>
+            <PageBodySection 
+                title="The Results"
+                text={<DemoVideo />}
+                bgColour="darkblue"            
+                shiftUpForLine={true}
+            />
+        </div>
 
         {/* <PageBodySectionWithImage 
             title="Upload Batch Process" 

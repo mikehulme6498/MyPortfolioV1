@@ -23,6 +23,7 @@ function Home(){
                 title="Skill Set" 
                 text={<SkillSets />}
                 bgColour="darkblue"
+                centerText ={true}
                 shiftUpForLine={true} 
             />
             <PageBodySection secondToLast={true} blankSection={true} bgColour="darkblue"/>
