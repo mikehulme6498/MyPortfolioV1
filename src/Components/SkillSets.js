@@ -6,7 +6,7 @@ function SkillSets() {
         <div className="skill-logo-section">
             <br />
             <p>I am Microsoft certified in C#, Asp.net &amp; Javascript / HTML / CSS. I have also used the other technologies show below. </p>
-            <div class="logo-container">
+            <div className="logo-container">
                 <img src={process.env.PUBLIC_URL + "/Images/Logos/Csharp.png"} alt="CSharp" className="skill-logo"/>           
                 <img src={process.env.PUBLIC_URL + "/Images/Logos/netcore.png"} alt="Net Core" className="skill-logo"/>
                 <img src={process.env.PUBLIC_URL + "/Images/Logos/dotnetmvc.png"} alt="Dot Net Core MVC" className="skill-logo"/>

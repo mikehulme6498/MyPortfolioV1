@@ -90,7 +90,8 @@
 }
 
 .ul-in-paragraph{
-    padding:10px 75px 20px;
+    margin-top: -10px;
+    padding:0 30px 20px;
 }
 .page-body-section ul{    
     font-size: 20px;
@@ -166,11 +167,11 @@
     padding-top:10px;
 }
 
-.section-text-container{
+/* .section-text-container{
     padding: 0 20px 0;
     justify-content: space-evenly;
     width: 60%;
-}
+} */
 
 .section-title{
     font-size: 48px;    
@@ -263,8 +264,8 @@
 @media screen and (max-width:960px){
 
     .page-body-section{
-        padding-left:50px;
-        padding-right:50px;    
+        padding-left:10px;
+        padding-right:10px;    
     }
 
     .with-image{
@@ -369,8 +370,8 @@
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 50px));
     }
     .page-body-section{
-        padding-left:50px;
-        padding-right:50px;    
+        /* padding-left:50px;
+        padding-right:50px;     */
     }
         
     .page-body-section ul li{    

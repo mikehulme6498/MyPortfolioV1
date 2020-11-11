@@ -133,6 +133,7 @@
     color: var(--primero-lightblue);
     font-family: 'Titillium-SemiBold', Arial, Helvetica, sans-serif;
     font-size:18px;
+    text-align: center;
   }
 
   .cards__item__desc{
