@@ -13,7 +13,7 @@ function Cards(props) {
                         <CardItem 
                         src={process.env.PUBLIC_URL + "/Images/DiagnosticCover5.png"}
                         title="Automated Process Diagnostics"
-                        desc="Converts plain text files into digital data for a total immersive diagnostics system."
+                        desc="Converts plain text files into digital data for an immersive diagnostics system."
                         label="Web App"
                         path='/ProcessDiagnostics'
                         techUsed="C# / ASP.Net Core MVC / Entity / Javascript"

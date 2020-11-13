@@ -55,7 +55,7 @@
    padding-right:20px;
   }
 
-  .fa-linkedin:hover{
+  .navbar-linkedIn:hover{
     color: #0077B5;
     transform: scale(1.2);
     transition: all 0.2s linear;

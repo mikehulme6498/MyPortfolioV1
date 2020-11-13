@@ -5,9 +5,10 @@ import NavBar from './Components/NavBar';
 import Home from './Components/pages/Home';
 import ProcessDiagnostics from './Components/pages/ProcessDiagnostics';
 import Projects from './Components/pages/Projects';
-import AboutMe from './Components/AboutMe';
+import AboutMe from './Components/pages/AboutMe';
 import ScrollToTop from './Components/ScrollToTop';
 import CrpytoPic from './Components/pages/CryptoPic';
+import Contact from './Components/pages/Contact';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/AboutMe" component={AboutMe}></Route>
         <Route path="/ProcessDiagnostics" component={ProcessDiagnostics}></Route>
         <Route path="/CryptoPic" component={CrpytoPic}></Route>
+        <Route path="/Contact" component={Contact}></Route>
       </Switch>
     </Router>
    

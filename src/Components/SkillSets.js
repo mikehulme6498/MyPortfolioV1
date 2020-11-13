@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import {Button} from './Button'
 import './css/SkillLogo.css'
 
 function SkillSets() {
@@ -18,6 +20,9 @@ function SkillSets() {
                 <img src={process.env.PUBLIC_URL + "/Images/Logos/Photoshop.png"} alt="Photoshop" className="skill-logo"/>
                 <img src={process.env.PUBLIC_URL + "/Images/Logos/Bootstrap.png"} alt="bootstrap" className="skill-logo"/>
             </div>
+            <Link to="/Projects">
+                <Button buttonStyle="btn--outline" buttonSize="btn--large">View Projects</Button>
+            </Link>
         </div>
     )
 }

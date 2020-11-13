@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Components/css/AboutMe.css'
 
-function AboutMe() {
+function AboutMeText() {
     return (
         <>          
             <p>
@@ -24,5 +24,5 @@ function AboutMe() {
     )
 }
 
-export default AboutMe
+export default AboutMeText
 

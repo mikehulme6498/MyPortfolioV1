@@ -19,6 +19,7 @@ function PageBodySectionWithImage(props) {
     const largeImage = props.imageLarge === true ? "image-large" : "image-normal";
     const shadowImage = props.imageShadow === true ? "image-shadow" : "";
     const expandableImage = props.imageExpandable === true ? "image-expandable" : "";
+    const imageCaption = props.caption ? <figcaption>Fig - {props.caption}</figcaption> : null;
     let backgroundColour = require('./Helpers/BackgroundColourPicker').setBGColourClass(props.bgColour);
 
     return (
@@ -31,7 +32,7 @@ function PageBodySectionWithImage(props) {
                 alt={props.image} 
                 onClick={handleFullScreen}
             />
-            <figcaption>Fig - {props.caption}</figcaption>
+            {imageCaption}
             </figure>
             <div className="section-text-container">
             <div className="section-title">{props.title}</div>

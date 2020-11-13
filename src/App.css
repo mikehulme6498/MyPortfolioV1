@@ -42,3 +42,23 @@
     color: #fff;
     font-size: 100px;
   }
+
+  .fa-linkedin:hover{
+    color: #0077B5;
+    cursor: pointer;
+  }
+  
+  .fa-github-square:hover{
+    color: lightgray;
+    cursor: pointer;
+  }
+
+  .fa-envelope-square:hover{
+    color: var(--primero-orange);
+    cursor: pointer;
+  }
+
+  .fa-youtube-square:hover{
+    color:#ff0000;
+    cursor: pointer;
+  }

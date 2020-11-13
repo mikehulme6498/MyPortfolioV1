@@ -1,11 +1,13 @@
 import React from 'react'
 import '../../App.css'
-import AboutMe from '../AboutMe'
+import AboutMe from '../AboutMeText'
 import Cards from '../Cards'
 import Footer from '../Footer'
 import PageBodySection from '../PageBodySection'
+import PageBodySectionWithImage from '../PageBodySectionWithImage'
 import ProfileSection from '../ProfileSection'
 import SkillSets from '../SkillSets'
+
 
 
 function Home(){
@@ -27,15 +29,19 @@ function Home(){
                 shiftUpForLine={true} 
             />
             <PageBodySection secondToLast={true} blankSection={true} bgColour="darkblue"/>
-            <PageBodySection
-                title="Projects"
-                text={<Cards />}
+            <PageBodySection  title="Feature Project" />
+            <PageBodySectionWithImage
+                title="APOS - Automated Process Optimization System"
+                text="Fanstastic product hire me" 
+                image="/Images/DiagnosticCover5.png"
+                imagePosition="left"
+                imageLarge={true}
+                imageRounded={true}
                 bgColour="white"
-                shiftUpForLine={true}
+                
             />
            <PageBodySection secondToLast={true} blankSection={true}/>
-           <PageBodySection
-                title="Projects"
+           <PageBodySection                
                 text={<Footer />}
                 bgColour="darkblue"
                 shiftUpForLine={true}
