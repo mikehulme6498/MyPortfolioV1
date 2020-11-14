@@ -53,19 +53,13 @@
     color:white;
     font-size: 24px;
    padding-right:20px;
+   
   }
-
-  .navbar-linkedIn:hover{
-    color: #0077B5;
-    transform: scale(1.2);
-    transition: all 0.2s linear;
-  }
-
-  .fa-github:hover{
-    color: lightgray;
-    transform: scale(1.2);
-    transition: all 0.2s linear;
-  }
+.social-icon-link:hover{
+  transform: scale(1.1);
+    transition: all 0.1s linear;
+}
+  
   
   .fa-typo3 {
     margin-left: 0.5rem;

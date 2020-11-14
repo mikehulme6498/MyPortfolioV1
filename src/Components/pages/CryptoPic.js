@@ -47,6 +47,7 @@ function CrpytoPic(){
             text="Video Here"
             bgColour="darkblue"            
             shiftUpForLine={true}
+            centerText={true}
         />       
         </div>
         </div>

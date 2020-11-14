@@ -45,7 +45,7 @@ function NavBar(){
                 {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button> } */}
                 
                 <div className="navbar-social-icons">
-                        <a className="navbar-linkedIn"
+                        <a className="social-icon-link"
                         href="https://www.linkedin.com/in/mike-hulme-574a5a188/"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -53,13 +53,19 @@ function NavBar(){
                             <i className="fab fa-linkedin"></i>
                         </a>
                         
-                        <a className="social-icon-link gitHub"
+                        <a className="social-icon-link"
                         href="https://github.com/mikehulme6498"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="linkedin">
                             <i className="fab fa-github"></i>
-                        </a>                            
+                        </a>   
+                        <a className="social-icon-link"
+                          href="mailto: mike@primerosoftware.co.uk" 
+                          aria-label="Email"
+                          title="Send me an email">
+                              <i className="fas fa-envelope-square"></i>
+                        </a>                         
                     </div>
                     
                    
