@@ -1,22 +1,38 @@
-import React from 'react'
+import React, {useState} from 'react'
 import emailjs from 'emailjs-com'
 import {Button} from './Button'
 import './css/ContactForm.css'
 
 export default function ContactForm(props){
 
+    const [result, setResult] = useState(null)
+    const [resultIcon, setResultIcon] = useState(null)
+    const [textColour, setTextColour] = useState(null)
+
+        const handleSend = (success) => {
+            if(success){
+                setResult("Your message has been sent!")
+                setResultIcon("fas fa-check-circle")
+                setTextColour("success")
+            }else{
+                setResult("Message failed. Please try again")
+                setResultIcon("fas fa-times-circle")
+                setTextColour("failed")
+            }
+        }
+
     function sendEmail(e){
         e.preventDefault();
-
+        
         emailjs.sendForm('gmail', 'template_02zx396', e.target, 'user_iXiUAzPRhk9tyDCtZzuWE')
           .then((result) => {
-              alert(result.text);
+             handleSend(true)
           }, (error) => {
-              alert(error.text);
+              handleSend(false);
           });
           e.target.reset()
     }
-
+    
     const buttonColour = props.buttonColour === "blue" ? "btn--darkblue" : "btn--outline";
 
     return(
@@ -34,6 +50,7 @@ export default function ContactForm(props){
             </div>
         
             <Button type="submit" buttonStyle={buttonColour}>Send Message</Button>
+            <div className={`send-result ${textColour}`}><i className={resultIcon}></i>{result}</div>
             </form>
         </div>
     )

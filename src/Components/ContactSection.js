@@ -5,7 +5,8 @@ function ContactSection() {
     return (
         <div className="contact-section">
             <div className="contact-details">
-                <span className="contactText">You can reach me by any of the methods below or fill out the contact form.</span>
+                <span className="contactText">Please fill out the contact form or use one of the methods below.</span>
+                
                     <div className="social-icons">
                         <a href="mailto: mike@primerosoftware.co.uk" title="Send me an email"><i className="fas fa-envelope-square"></i></a>
                         <a href="https://www.linkedin.com/in/mike-hulme-574a5a188/" target="_blank" title="Contact me on LinkedIn"><i className="fab fa-linkedin"></i></a>
@@ -13,10 +14,11 @@ function ContactSection() {
                         <a href="https://www.youtube.com/channel/UCnjmBJk0yOd9LDvJHARkdZQ" target="_blank" title="View my YouTube Channel"><i className="fab fa-youtube-square"></i></a>
                         
                     </div>
-            </div>
-            <div className="form-section">
+                    <div className="form-section">
                 <ContactForm buttonColour="blue"/>
             </div>
+            </div>
+            
         </div>
     )
 }

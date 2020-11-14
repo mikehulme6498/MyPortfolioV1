@@ -29,7 +29,7 @@ export default function ProcessDiagnostics(){
         <PageHeading 
             title="APOS (Automated Process Optimization System)" 
             text="Designed to revolutionise how the production plant diagnosis the process"
-            button={<Button buttonStyle="btn--outline" icon="fab fa-youtube" onClick={gotoVideoSection}>Demo</Button>}
+            button={<Button buttonStyle="btn--outline" icon="fab fa-youtube" onClick={gotoVideoSection}>Video Demo</Button>}
             // button2={<Button buttonStyle="btn--outline" icon="fab fa-github">View Code</Button>}
         
         />
@@ -61,6 +61,7 @@ export default function ProcessDiagnostics(){
                 text={<DemoVideo />}
                 bgColour="darkblue"            
                 shiftUpForLine={true}
+                centerText={true}
             />
         </div>
 

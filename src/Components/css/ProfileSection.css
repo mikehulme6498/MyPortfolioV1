@@ -119,14 +119,14 @@ clip-path: polygon(0 0, 100% 0, 100% calc(100% - 100px), 0 100%); clip left */
         font-size:30px;
     }
 
-    .btn-mobile{
+    /* .btn-mobile{
         display: block;
         text-decoration: none;
-    }
+    } */
 
-    .btn{
+    /* .btn{
         width: 100%;
-    }
+    } */
 
     .profile-pic img{
         width:300px;
@@ -179,14 +179,14 @@ clip-path: polygon(0 0, 100% 0, 100% calc(100% - 100px), 0 100%); clip left */
 
 @media screen and (max-width: 768px){
     
-    .btn-mobile{
+    /* .btn-mobile{
         display: block;
         text-decoration: none;
-    }
+    } */
 
-    .btn{
+    /* .btn{
         width: 100%;
-    }
+    } */
 
     .profile-pic img{
         width:200px;

@@ -2,6 +2,7 @@ import React from 'react'
 import '../../App.css'
 import AboutMe from '../AboutMeText'
 import Cards from '../Cards'
+import FeatureProjectText from '../FeatureProjectText'
 import Footer from '../Footer'
 import PageBodySection from '../PageBodySection'
 import PageBodySectionWithImage from '../PageBodySectionWithImage'
@@ -31,12 +32,12 @@ function Home(){
             <PageBodySection secondToLast={true} blankSection={true} bgColour="darkblue"/>
             <PageBodySection  title="Feature Project" />
             <PageBodySectionWithImage
-                title="APOS - Automated Process Optimization System"
-                text="Fanstastic product hire me" 
+                // title="APOS - Automated Process Optimization System"
+                text={<FeatureProjectText />}
                 image="/Images/DiagnosticCover5.png"
-                imagePosition="left"
-                imageLarge={true}
+                imagePosition="right"
                 imageRounded={true}
+                imageShadow={true}
                 bgColour="white"
                 
             />

@@ -4,7 +4,7 @@
     height: auto;
     padding-top: 15px;
     padding-bottom: 5px;
-    width: 450px;
+    width: 100%;
     border-radius: 5px;
     padding-left: 10px;
 }
@@ -12,5 +12,45 @@
 .contact-form-container input::placeholder, textarea::placeholder{
     font-size: 22px;
     color: gray;
+}
+.send-result{
+    display: inline-flex;
+    font-size: 20px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.send-result i{
+    padding-right: 10px;
+}
+
+.success{
+    color: green;
+}
+
+.failed{
+    color:red;
+}
+
+@media screen and (max-width:768px){
+
+    .contact-form-container input, textarea{
+        font-size: 18px;
+    }
+
+    .contact-form-container input::placeholder, textarea::placeholder{
+    font-size: 18px;
+    }
+}
+
+@media screen and (max-width:400px){
+
+    .contact-form-container input, textarea{
+        font-size: 14px;
+    }
+
+    .contact-form-container input::placeholder, textarea::placeholder{
+    font-size: 14px;
+    }
 }
 
