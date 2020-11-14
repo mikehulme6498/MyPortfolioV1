@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/MyPortfolioV1/static/css/main.24919e5f.chunk.css",
-    "main.js": "/MyPortfolioV1/static/js/main.18b23247.chunk.js",
-    "main.js.map": "/MyPortfolioV1/static/js/main.18b23247.chunk.js.map",
-    "runtime-main.js": "/MyPortfolioV1/static/js/runtime-main.2a46dd11.js",
-    "runtime-main.js.map": "/MyPortfolioV1/static/js/runtime-main.2a46dd11.js.map",
-    "static/js/2.b04434eb.chunk.js": "/MyPortfolioV1/static/js/2.b04434eb.chunk.js",
-    "static/js/2.b04434eb.chunk.js.map": "/MyPortfolioV1/static/js/2.b04434eb.chunk.js.map",
-    "static/js/3.111c6ec3.chunk.js": "/MyPortfolioV1/static/js/3.111c6ec3.chunk.js",
-    "static/js/3.111c6ec3.chunk.js.map": "/MyPortfolioV1/static/js/3.111c6ec3.chunk.js.map",
+    "main.css": "/MyPortfolioV1/static/css/main.8bb26563.chunk.css",
+    "main.js": "/MyPortfolioV1/static/js/main.7f0fc1e7.chunk.js",
+    "main.js.map": "/MyPortfolioV1/static/js/main.7f0fc1e7.chunk.js.map",
+    "runtime-main.js": "/MyPortfolioV1/static/js/runtime-main.a03cfee4.js",
+    "runtime-main.js.map": "/MyPortfolioV1/static/js/runtime-main.a03cfee4.js.map",
+    "static/js/2.a93f03b9.chunk.js": "/MyPortfolioV1/static/js/2.a93f03b9.chunk.js",
+    "static/js/2.a93f03b9.chunk.js.map": "/MyPortfolioV1/static/js/2.a93f03b9.chunk.js.map",
+    "static/js/3.10f8eae0.chunk.js": "/MyPortfolioV1/static/js/3.10f8eae0.chunk.js",
+    "static/js/3.10f8eae0.chunk.js.map": "/MyPortfolioV1/static/js/3.10f8eae0.chunk.js.map",
     "index.html": "/MyPortfolioV1/index.html",
-    "static/css/main.24919e5f.chunk.css.map": "/MyPortfolioV1/static/css/main.24919e5f.chunk.css.map",
-    "static/js/2.b04434eb.chunk.js.LICENSE.txt": "/MyPortfolioV1/static/js/2.b04434eb.chunk.js.LICENSE.txt",
+    "static/css/main.8bb26563.chunk.css.map": "/MyPortfolioV1/static/css/main.8bb26563.chunk.css.map",
+    "static/js/2.a93f03b9.chunk.js.LICENSE.txt": "/MyPortfolioV1/static/js/2.a93f03b9.chunk.js.LICENSE.txt",
     "static/media/ProfileSection.css": "/MyPortfolioV1/static/media/TitilliumWeb-SemiBold.648d6c61.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.2a46dd11.js",
-    "static/js/2.b04434eb.chunk.js",
-    "static/css/main.24919e5f.chunk.css",
-    "static/js/main.18b23247.chunk.js"
+    "static/js/runtime-main.a03cfee4.js",
+    "static/js/2.a93f03b9.chunk.js",
+    "static/css/main.8bb26563.chunk.css",
+    "static/js/main.7f0fc1e7.chunk.js"
   ]
 }
