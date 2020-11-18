@@ -9,6 +9,9 @@ import AboutMe from './Components/pages/AboutMe';
 import ScrollToTop from './Components/ScrollToTop';
 import CrpytoPic from './Components/pages/CryptoPic';
 import Contact from './Components/pages/Contact';
+import LexletsManagement from './Components/pages/LexletsManagement';
+import MyPortfolio from './Components/pages/MyPortfolio';
+import SudokuSolver from './Components/pages/SudokuSolver';
 
 
 function App() {
@@ -26,6 +29,9 @@ function App() {
         <Route path="/AboutMe" component={AboutMe}></Route>
         <Route path="/ProcessDiagnostics" component={ProcessDiagnostics}></Route>
         <Route path="/CryptoPic" component={CrpytoPic}></Route>
+        <Route path="/LexLetsManagement" component={LexletsManagement}></Route>
+        <Route path="/MyPortfolio" component={MyPortfolio}></Route>
+        <Route path="/SudokuSolver" component={SudokuSolver}></Route>
         <Route path="/Contact" component={Contact}></Route>
       </Switch>
     </Router>

@@ -30,7 +30,7 @@ function Home(){
                 shiftUpForLine={true} 
             />
             <PageBodySection secondToLast={true} blankSection={true} bgColour="darkblue"/>
-            <PageBodySection  title="Feature Project" />
+            <PageBodySection  title="Feature Project" blankSection={true}/>
             <PageBodySectionWithImage
                 // title="APOS - Automated Process Optimization System"
                 text={<FeatureProjectText />}

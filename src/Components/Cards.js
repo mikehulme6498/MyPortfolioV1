@@ -30,27 +30,27 @@ function Cards(props) {
                     <ul className="cards__items">
                         
                         <CardItem 
-                        src={process.env.PUBLIC_URL + "/Images/test2.jpg"}
+                        src={process.env.PUBLIC_URL + "/Images/PortfolioCover.png"}
                         title="My Portfolio"
                         desc="The site you are viewing now. The site that inspired you to hire me :)"
                         label="Web"
-                        path='/diagnostics'
+                        path='/MyPortfolio'
                         techUsed="React"
                         />
                         <CardItem 
-                        src={process.env.PUBLIC_URL + "/Images/test3.jpg"}
+                        src={process.env.PUBLIC_URL + "/Images/SodokuCover.png"}
                         title="Soduko Puzzle Solver"
                         label="Web App"
                         desc = "Built as a side project when learning Javascript."
-                        path='/diagnostics'
+                        path='/SudokuSolver'
                         techUsed="Javascript"
                         />
                        <CardItem 
-                        src={process.env.PUBLIC_URL + "/Images/test4.jpg"}
+                        src={process.env.PUBLIC_URL + "/Images/lexletsoverview.png"}
                         title="Business Management Software"
                         label="Desktop App"
-                        desc="Complete managemtn studio for my wifes business. Manages Sales, Inventory, Accounts &amp; Customers."
-                        path='/diagnostics'
+                        desc="Complete management studio for my wifes business. Manages Sales, Inventory, Accounts &amp; Customers."
+                        path='/LexLetsManagement'
                         techUsed="C# / SQL / Winforms"
                         />
                     </ul>
