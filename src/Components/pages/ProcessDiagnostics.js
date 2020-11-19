@@ -7,7 +7,7 @@ import PageHeading from '../PageHeading';
 import ComplianceResultText from '../Projects/ProcessDiagnosticsText/ComplianceResultText';
 import ConclusionText from '../Projects/ProcessDiagnosticsText/ConclusionText';
 import ControlChartResultsText from '../Projects/ProcessDiagnosticsText/ControlChartResultsText';
-import DemoVideo from '../Projects/ProcessDiagnosticsText/DemoVideo';
+import ProcessDemoVideo from '../Projects/ProcessDiagnosticsText/ProcessDemoVideo';
 import IdeaText from '../Projects/ProcessDiagnosticsText/IdeaText';
 import MatVarResultText from '../Projects/ProcessDiagnosticsText/MatVarResultText';
 import NewBatchReportText from '../Projects/ProcessDiagnosticsText/NewBatchReportText';
@@ -58,7 +58,7 @@ export default function ProcessDiagnostics(){
         <div ref={videoSection}>
             <PageBodySection 
                 title="The Results"
-                text={<DemoVideo />}
+                text={<ProcessDemoVideo />}
                 bgColour="darkblue"            
                 shiftUpForLine={true}
                 centerText={true}

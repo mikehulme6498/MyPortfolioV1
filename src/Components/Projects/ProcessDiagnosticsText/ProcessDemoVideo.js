@@ -1,6 +1,6 @@
 import React from 'react'
 
-function DemoVideo() {
+function ProcessDemoVideo() {
     return (
         <div>
             <div className="demo-video">
@@ -11,5 +11,5 @@ function DemoVideo() {
     )
 }
 
-export default DemoVideo
+export default ProcessDemoVideo
 

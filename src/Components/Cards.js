@@ -16,7 +16,7 @@ function Cards(props) {
                         desc="Converts plain text files into digital data for an immersive diagnostics system."
                         label="Web App"
                         path='/ProcessDiagnostics'
-                        techUsed="C# / ASP.Net Core MVC / Entity / Javascript"
+                        techUsed="C# / ASP.Net Core MVC / Entity / Web Sockets"
                         />
                         <CardItem 
                         src={process.env.PUBLIC_URL + "/Images/CryptoPic2.png"}

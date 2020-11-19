@@ -3,6 +3,7 @@ import { Button } from '../Button';
 import PageBodySection from '../PageBodySection';
 import PageBodySectionWithImage from '../PageBodySectionWithImage';
 import PageHeading from '../PageHeading';
+import CryptoPicDemo from '../Projects/CryptoPic/CryptoPicDemo';
 import IdeaText from '../Projects/CryptoPic/IdeaText';
 import ProblemText from '../Projects/CryptoPic/ProblemText';
 
@@ -44,7 +45,7 @@ function CrpytoPic(){
         <div ref={videoSection}>
         <PageBodySection 
             title="The Results"
-            text="Video Here"
+            text={<CryptoPicDemo />}
             bgColour="darkblue"            
             shiftUpForLine={true}
             centerText={true}
