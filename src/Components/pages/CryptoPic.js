@@ -4,6 +4,7 @@ import PageBodySection from '../PageBodySection';
 import PageBodySectionWithImage from '../PageBodySectionWithImage';
 import PageHeading from '../PageHeading';
 import CryptoPicDemo from '../Projects/CryptoPic/CryptoPicDemo';
+import HowItWorks from '../Projects/CryptoPic/HowItWorks';
 import IdeaText from '../Projects/CryptoPic/IdeaText';
 import ProblemText from '../Projects/CryptoPic/ProblemText';
 
@@ -18,7 +19,7 @@ function CrpytoPic(){
         <div>
             <PageHeading 
             title="CryptoPic" 
-            text="Hide passwords / messages inside images"
+            text="Encrypts and hides passwords / messages inside images"
             button={<Button buttonStyle="btn--outline" icon="fab fa-youtube" onClick={gotoVideoSection}>Demo</Button>}
             button2={<Button buttonStyle="btn--outline" icon="fab fa-github" onClick={() => window.open("https://github.com/mikehulme6498/CryptoPic", "_blank")}>View Code</Button>}
         />
@@ -31,20 +32,25 @@ function CrpytoPic(){
             shiftUpForLine={true}            
         />
 
-        <PageBodySectionWithImage 
+        <PageBodySection 
             title="The Idea" 
             text={<IdeaText />}
-            imagePosition="left"  
-            image='/Images/CryptoPicIdeaExample.png'
-           
-            secondToLast={true}            
-            caption="Demonstration Of changing the B value"
-            
+            centerText={true}
         />   
+
+        <PageBodySectionWithImage
+            title="How Embedding Works"
+            text={<HowItWorks />}
+            image="/Images/pixelExample.png"
+            imagePosition="right"
+            caption="Example of pixels with 'the' hidden in them"
+            imageShadow={true}
+            secondToLast={true}
+        />
 
         <div ref={videoSection}>
         <PageBodySection 
-            title="The Results"
+            title="The Result"
             text={<CryptoPicDemo />}
             bgColour="darkblue"            
             shiftUpForLine={true}

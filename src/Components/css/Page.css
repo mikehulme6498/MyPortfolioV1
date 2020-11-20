@@ -191,6 +191,12 @@
     
 }
 
+.p-title{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
 
 .demo-video{
     display:flex;

@@ -15,7 +15,7 @@ function FeatureProjectText() {
                 It's the project I am most proud of as it has transformed the way the process is monitored and is driving improvements.
               </div>  
                 <div className="tech-used-heading">Tech Used :</div>
-                <div className="tech-used-text">C# / ASP.NET MVC Core / Entity / Web API / Bootstrap / JQuery</div>
+                <div className="tech-used-text">C# / ASP.NET MVC Core / Entity / Web API / Web Sockets / Bootstrap / JQuery</div>
 
             
             <div className="buttons">

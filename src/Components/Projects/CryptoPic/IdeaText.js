@@ -4,19 +4,18 @@ function IdeaText() {
     return (
         <div>
             <p>
-                My idea was to create an application that would use multiple forms of encryption then hide the encrypted
-                message into an image. The image could be stored in multiple places amongst many other images and be 
-                undetectable.
+                My idea was to create an application that would encrypt the message and then embed it into
+                an image. The image could then be stored in multiple places such as cloud storage, USB drives, etc
             </p>
             <p>
-                Every pixel in an image has an RGB value. The idea is to store each character in the B value
-                
-                It would work by assigning a number of each character in the message and storing each character in
-                a pixel within the image. For example, every pixel has an RGB value. let's say A had the value of 1.
-
-                the B value in RGB would become 1
+                The user will have the option to add additional random words, three extra words will be added for every word
+                the user enters. An encryption key (password) will be used to shift the characters around for example an 
+                a could become k. 
             </p>
-            
+            <p>
+                The pixels with the characters in will also not be stored in consecutive order. All of this would make
+                it incredibly difficult to decode and get the true message back.
+            </p>
         </div>
     )
 }

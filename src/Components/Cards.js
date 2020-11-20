@@ -12,7 +12,7 @@ function Cards(props) {
                     <ul className="cards__items">
                         <CardItem 
                         src={process.env.PUBLIC_URL + "/Images/DiagnosticCover5.png"}
-                        title="Automated Process Diagnostics"
+                        title="APOS - Automated Process Optimization System"
                         desc="Converts plain text files into digital data for an immersive diagnostics system."
                         label="Web App"
                         path='/ProcessDiagnostics'
