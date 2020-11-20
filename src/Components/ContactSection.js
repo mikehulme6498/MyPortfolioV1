@@ -9,9 +9,9 @@ function ContactSection() {
                 
                     <div className="social-icons">
                         <a href="mailto: mike@primerosoftware.co.uk" title="Send me an email"><i className="fas fa-envelope-square"></i></a>
-                        <a href="https://www.linkedin.com/in/mike-hulme-574a5a188/" target="_blank" title="Contact me on LinkedIn"><i className="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/mikehulme6498" target="_blank" title="View my GitHub"><i className="fab fa-github-square"></i></a>
-                        <a href="https://www.youtube.com/channel/UCnjmBJk0yOd9LDvJHARkdZQ" target="_blank" title="View my YouTube Channel"><i className="fab fa-youtube-square"></i></a>
+                        <a href="https://www.linkedin.com/in/mike-hulme-574a5a188/" target="_blank" title="Contact me on LinkedIn" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/mikehulme6498" target="_blank" title="View my GitHub" rel="noreferrer"><i className="fab fa-github-square"></i></a>
+                        <a href="https://www.youtube.com/channel/UCnjmBJk0yOd9LDvJHARkdZQ" target="_blank" title="View my YouTube Channel" rel="noreferrer"><i className="fab fa-youtube-square"></i></a>
                         
                     </div>
                     <div className="form-section">
