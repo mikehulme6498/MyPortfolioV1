@@ -3,7 +3,8 @@
 .footer-container{
     background-color: var(--primero-darkblue);
     padding: 4rem 0 2rem 0;
-    display: flex;
+    display: flex;   
+    height: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -16,6 +17,7 @@
 .madeby{
     width: 100%;
     text-align: center;
+    align-self: flex-end;
 }
 
 .contact-title{

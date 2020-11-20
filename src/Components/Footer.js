@@ -19,7 +19,9 @@ function Footer() {
          </div>
          
         </div> */}
-        <div className="madeby">Site created by Mike Hulme</div>
+        <div className="footer-container">
+            <div className="madeby">Site created by Mike Hulme</div>
+        </div>
         </> 
         // <div className="footer-container">
         //     <section className="footer-subscription">

@@ -28,7 +28,14 @@ function Cards(props) {
                         />
                     </ul>
                     <ul className="cards__items">
-                        
+                        <CardItem 
+                        src={process.env.PUBLIC_URL + "/Images/lexletsoverview.png"}
+                        title="Business Management Software"
+                        label="Desktop App"
+                        desc="Complete management studio for my wifes business. Manages Sales, Inventory, Accounts &amp; Customers."
+                        path='/LexLetsManagement'
+                        techUsed="C# / SQL / Winforms"
+                        />
                         <CardItem 
                         src={process.env.PUBLIC_URL + "/Images/PortfolioCover.png"}
                         title="My Portfolio"
@@ -45,14 +52,7 @@ function Cards(props) {
                         path='/SudokuSolver'
                         techUsed="Javascript"
                         />
-                       <CardItem 
-                        src={process.env.PUBLIC_URL + "/Images/lexletsoverview.png"}
-                        title="Business Management Software"
-                        label="Desktop App"
-                        desc="Complete management studio for my wifes business. Manages Sales, Inventory, Accounts &amp; Customers."
-                        path='/LexLetsManagement'
-                        techUsed="C# / SQL / Winforms"
-                        />
+                       
                     </ul>
                 </div>
             </div>
