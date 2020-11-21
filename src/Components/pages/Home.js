@@ -20,8 +20,8 @@ function Home(){
                 text={<AboutMe />}
                 shiftUpForLine={true}
                 secondToLast={true}
-            />
-            <PageBodySection secondToLast={true} blankSection={true}/>
+            /> 
+             <PageBodySection secondToLast={true} blankSection={true}/>
              <PageBodySection 
                 title="Skill Set" 
                 text={<SkillSets />}

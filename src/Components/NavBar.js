@@ -9,8 +9,7 @@ function NavBar(){
     const closeMobileMenu = () => setClick(false);
     
     return(
-        <nav className="navbar">
-            <div className="navbar-container">            
+        <nav className="navbar">           
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                 <img className="site-logo" src={process.env.PUBLIC_URL + '/Images/primero-on.png'} alt="logo2"></img>
             </Link>
@@ -67,10 +66,7 @@ function NavBar(){
                               <i className="fas fa-envelope-square"></i>
                         </a>                         
                     </div>
-                    
-                   
-                </div>
-        </nav>
+            </nav>
     )
 }
 export default NavBar
