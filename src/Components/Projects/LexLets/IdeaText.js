@@ -4,17 +4,14 @@ function IdeaText() {
     return (
         <div>
             <p>
-                The idea is to create an application that would store all the products with what materials and quantities
-                are used. That way when a product is sold it can consume the materials used meaning we can keep track of
-                the stock.
+                The idea was to create a program to store the products as well as the materials required to make the product. 
+                It would also track the quantities used for each item enabling us to manage stock levels more efficiently.
             </p>
             <p>
-                Also when a sale is entered into the system it will add it to income on the accounts including the fees
-                such as credit card / Paypal fees. A section to enter expenses would be needed.
+                As the sales are entered, the inventory will be adjusted and the accounts will automatically be populated and the fees and postage costs will be categorized.
             </p>
             <p>
-                When the yearly accounts are due I will be able to just click to see the last 12 months figures for a 
-                speedy tax return.
+                The yearly accounts would be available to see instantly enabling a speedy tax return.
             </p>
         </div>
     )

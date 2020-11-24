@@ -3,9 +3,8 @@ import React from 'react'
 function ProjectWelcome() {
     return (
         <>            
-            Below is a list of my most recent projects. My most recent project which is the
-            Automated Process Diagnostics app is the one I am most proud of.<br/>
-            The CryptoImage app is the coolest one I have made so far. Please check them out.
+            Here is a list of some of my projects. My most recent project which is the most feature rich is APOS.<br />
+            Please check them out, each project has it's own video demo.
         </>
     )
 }

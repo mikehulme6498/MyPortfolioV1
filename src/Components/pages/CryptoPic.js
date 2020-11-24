@@ -4,6 +4,7 @@ import PageBodySection from '../PageBodySection';
 import PageBodySectionWithImage from '../PageBodySectionWithImage';
 import PageHeading from '../PageHeading';
 import CryptoPicDemo from '../Projects/CryptoPic/CryptoPicDemo';
+import EmbeddedExample from '../Projects/CryptoPic/EmbeddedExample';
 import HowItWorks from '../Projects/CryptoPic/HowItWorks';
 import IdeaText from '../Projects/CryptoPic/IdeaText';
 import ProblemText from '../Projects/CryptoPic/ProblemText';
@@ -47,6 +48,16 @@ function CrpytoPic(){
             imageShadow={true}
             secondToLast={true}
         />
+            <PageBodySectionWithImage
+            title="Example of changed pixel in image"
+            text={<EmbeddedExample />}
+            image="/Images/CryptoPicIdeaExample.png"
+            imagePosition="left"
+            caption="Example of pixel changed within an image"
+            imageShadow={true}
+            secondToLast={true}
+        />
+
 
         <div ref={videoSection}>
         <PageBodySection 

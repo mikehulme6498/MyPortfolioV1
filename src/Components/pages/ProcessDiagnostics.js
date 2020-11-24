@@ -30,7 +30,7 @@ export default function ProcessDiagnostics(){
             title="APOS (Automated Process Optimization System)" 
             text="Designed to revolutionise how the production plant diagnosis the process"
             button={<Button buttonStyle="btn--outline" icon="fab fa-youtube" onClick={gotoVideoSection}>Video Demo</Button>}
-            // button2={<Button buttonStyle="btn--outline" icon="fab fa-github">View Code</Button>}
+            button2={<Button buttonStyle="btn--outline" icon="fab fa-github" onClick={() => window.open("https://github.com/mikehulme6498/APOS-Automatic-Process-optimization-system", "_blank")}>View Code</Button>}
         
         />
         

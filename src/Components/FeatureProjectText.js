@@ -12,7 +12,7 @@ function FeatureProjectText() {
                 the modern age, with real-time feedback on process performance and quality.<br /><br />
                 This application reads raw text file reports produced by the system and converts them into digital data stored in a database 
                 for a fully featured diagnostics system.<br/><br/>
-                It's the project I am most proud of as it has transformed the way the process is monitored and is driving improvements.
+                It's the project I am most proud of, as it has transformed the way the process is monitored and is driving improvements.
               </div>  
                 <div className="tech-used-heading">Tech Used :</div>
                 <div className="tech-used-text">C# / ASP.NET MVC Core / Entity / Web API / Web Sockets / Bootstrap / JQuery</div>

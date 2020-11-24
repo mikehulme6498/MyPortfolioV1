@@ -44,14 +44,14 @@ function Cards(props) {
                         path='/MyPortfolio'
                         techUsed="React"
                         />
-                        <CardItem 
+                        {/* <CardItem 
                         src={process.env.PUBLIC_URL + "/Images/SodokuCover.png"}
                         title="Soduko Puzzle Solver"
                         label="Web App"
                         desc = "Built as a side project when learning Javascript."
                         path='/SudokuSolver'
                         techUsed="Javascript"
-                        />
+                        /> */}
                        
                     </ul>
                 </div>
