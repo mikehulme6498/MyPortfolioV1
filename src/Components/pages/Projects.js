@@ -14,7 +14,7 @@ function Projects() {
               text={<ProjectWelcome />}
               />
               <PageBodySection 
-              title="Projects"
+              title=""
               text={<Cards />}
               shiftUpForLine={true}
             />

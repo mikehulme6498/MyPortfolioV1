@@ -20,7 +20,7 @@ function Footer() {
          
         </div> */}
         <div className="footer-container">
-            <div className="madeby">Site created by Mike Hulme</div>
+            <div className="madeby">Mike Hulme - All Rights Reserved</div>
         </div>
         </> 
         // <div className="footer-container">

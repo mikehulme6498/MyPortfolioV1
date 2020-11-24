@@ -4,16 +4,10 @@ import { Button } from '../Button';
 import PageBodySection from '../PageBodySection';
 import PageBodySectionWithImage from '../PageBodySectionWithImage';
 import PageHeading from '../PageHeading';
-import ComplianceResultText from '../Projects/ProcessDiagnosticsText/ComplianceResultText';
-import ConclusionText from '../Projects/ProcessDiagnosticsText/ConclusionText';
-import ControlChartResultsText from '../Projects/ProcessDiagnosticsText/ControlChartResultsText';
 import ProcessDemoVideo from '../Projects/ProcessDiagnosticsText/ProcessDemoVideo';
 import IdeaText from '../Projects/ProcessDiagnosticsText/IdeaText';
-import MatVarResultText from '../Projects/ProcessDiagnosticsText/MatVarResultText';
-import NewBatchReportText from '../Projects/ProcessDiagnosticsText/NewBatchReportText';
 import ProblemText from '../Projects/ProcessDiagnosticsText/ProblemText';
-import ResultsHeadingText from '../Projects/ProcessDiagnosticsText/ResultsHeadingText';
-import UploadResultText from '../Projects/ProcessDiagnosticsText/UploadResultText';
+
 
 
 export default function ProcessDiagnostics(){
@@ -28,7 +22,7 @@ export default function ProcessDiagnostics(){
         <>
         <PageHeading 
             title="APOS (Automated Process Optimization System)" 
-            text="Designed to revolutionise how the production plant diagnosis the process"
+            text="Designed to revolutionize how an old process plant diagnosis the process"
             button={<Button buttonStyle="btn--outline" icon="fab fa-youtube" onClick={gotoVideoSection}>Video Demo</Button>}
             button2={<Button buttonStyle="btn--outline" icon="fab fa-github" onClick={() => window.open("https://github.com/mikehulme6498/APOS-Automatic-Process-optimization-system", "_blank")}>View Code</Button>}
         

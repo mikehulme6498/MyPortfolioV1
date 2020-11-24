@@ -9,7 +9,7 @@ function IdeaText() {
             </p>
             <p>
                 In order to add further layers of security, the user will have the option to add additional random words to their original 
-                message. The random word selection will include three extra words for every word input by the user. An encryption key password will then be 
+                message. The random word selection will include three extra words for every one input by the user. An encryption key password will then be 
                 required to encrypt the message and also to retrieve it back.
             </p>
             <p>
